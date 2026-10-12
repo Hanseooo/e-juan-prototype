@@ -1,44 +1,113 @@
-# E-JUAN — Interactive Healthcare UX Prototype (v2)
+<div align="center">
 
-An offline, dependency-free, mobile-first clickable prototype for **E-JUAN · Alagang Abot-Kamay**, a proposed Davao City healthcare navigation and care coordination product.
+# E-JUAN
 
-## Open
+### Alagang Abot-Kamay
 
-Open `index.html` locally in Chrome, Edge, Safari or Firefox. No server, installation, login, API key or internet connection required. At desktop widths the project displays a phone showcase; on a phone it displays full-screen mobile UI. A separate **single-file standalone HTML** is included alongside the ZIP download.
+**Good care feels closer.**
 
-## Primary journey: care coordination
+A healthcare navigation and care coordination prototype for Davao City.
 
-1. **Home → Ask Juan → “I don’t feel well”** or type symptoms directly. If using the starter, select an example or enter your own concern. Juan then asks three small, structured questions.
-2. **Ask Juan → Care matches:** A general physician is suggested as a starting point, followed **immediately by doctor cards**. Explore **Available now** (two fictional options) or **All times** (includes a later appointment). Select a doctor directly from the cards or open the profile.
-3. **Choose consultation:** Select video/voice/text when supported, choose an available day and time, or choose the simulated “Now” slot. Days with no slots display a clear unavailable state.
-4. **Care options:** Only after choosing the doctor/time, select standard booking, a fictional **LGU-funded selected-beneficiary** scenario, or navigate an appropriate **PhilHealth YAKAP primary-care** pathway. Unverified/pending LGU states **cannot apply** the funding benefit; an approved *sample scenario* demonstrates conditional coverage.
-5. **Review & confirm:** The optional Ask Juan handoff can be reviewed and consented to separately. Confirmation simulates a booking; it does not contact a doctor or charge money.
-6. **Consultation → aftercare → prescription → pharmacy:** Try sample text/video/voice consultation and navigate through clinician-issued example aftercare, a mock prescription, and fictional pharmacy results.
+**Mobile-first** · **Offline demo** · **No installation required**
 
-### Shortcuts and alternate cases
+[Quick start](#quick-start) · [Features](#what-you-can-explore) · [User journey](#the-care-journey) · [Demo boundaries](#demo-boundaries)
 
-- **Find Care:** Browse doctors without Ask Juan. Filter by availability (`All`, `Available now`, `Upcoming`), specialty and consultation mode. Pediatrics demonstrates a provider with no online slots.
-- **Find medicines:** Search directly, scan/upload a prescription (editable example extracted fields), compare list/map results and stale-stock states.
-- **Care options shortcut:** An **informational explainer**, not a funding/booking workflow before provider selection.
-- **Emergency:** Descriptions with explicit severe warning signs, or selecting concerning warning answers, show separate urgent-care guidance. Routine symptoms should display doctor results instead of emergency actions.
-- **Failure/recovery:** Ask Juan contains a recoverable mocked connectivity error state.
+</div>
 
-## Product rules represented
+![E-JUAN main page showing the blue, red and yellow desktop showcase, Home screen, and raised Rx prescription Scan button](docs/images/home-desktop.png)
 
-- Everyone can use ordinary care guidance, browsing and pharmacy discovery.
-- LGU-funded consultations are **only for selected, approved beneficiaries**, when provider, service, entitlement and funding are all approved. The originally proposed two-free-consultation monthly ceiling is **not** an established user benefit; it is configurable/potential in the concept.
-- **YAKAP and LGU-funded consultations are separate programs.** PhilHealth verification does not establish LGU-funded eligibility or make all teleconsultations free.
-- Ask Juan suggests care pathways; it does not diagnose, prescribe, or independently certify specialist suitability.
-- Doctor schedules/status, identities, credentials, reviews, clinical records, prices, pharmacy inventory, eligibility and booking confirmation are **fictional prototype data**; “Available now” means available in the **demo scenario**, not a live doctor.
-- No identity verification, government connectivity, production AI, real teleconsultation, OCR/ML, payment, or true inventory feed is connected.
+<p align="center"><em>The current Home screen. Desktop shows the phone showcase; mobile opens the full-screen app.</em></p>
 
-## Included files
+---
 
-- `index.html`: semantic HTML prototype shell and icons
-- `styles.css`: responsive styling
-- `app.js`: screen rendering, offline mock data and interactions
-- `assets/`: illustrated fictional clinician avatars
-- `DESIGN_NOTES.md`: flow decisions and UI rules
-- `preview-matches-v2.png`, `preview-booking-v2.png`, `preview-eligibility-v2.png`: preview snapshots
+E-JUAN brings the next steps in care into one place: describe a concern, explore doctors and sample appointment times, understand care options, review prescriptions, and find medicine listings. Its **23 screens** use local fictional data so the entire journey can be explored in a browser.
 
-This is an early product design exploration, **not a validated healthcare service, verified doctor directory, or confirmed funded program**.
+> **Interactive prototype only.** E-JUAN does not provide medical diagnosis, live consultations, real bookings, payments, eligibility verification, or verified pharmacy stock.
+
+## Quick start
+
+1. Download or clone this repository.
+2. Open [index.html](index.html) in Chrome, Edge, Firefox, or Safari.
+3. Start from **Home**, or choose **Ask Juan**, **Scan**, **Find Care**, or **My Health** in the bottom navigation.
+
+No package install, account, API key, internet connection, or backend is required.
+
+For a local HTTP preview, if Python is installed, run this from the project folder:
+
+~~~bash
+python -m http.server 4173 --bind 127.0.0.1
+~~~
+
+Then open [localhost:4173](http://127.0.0.1:4173).
+
+## What you can explore
+
+| Destination | What it does in the demo |
+| --- | --- |
+| **Home** | Care shortcuts, an introduction to Ask Juan, medicine discovery, and care-option information. |
+| **Ask Juan** | Describe a concern, answer three guided questions, and explore suggested care and doctor matches. Includes urgent-warning and connection-retry paths. |
+| **Scan** | Open the prescription file picker or a sample scan, review editable example fields, and search for medicine listings. Uses the raised **Rx prescription** action. |
+| **Find Care** | Browse fictional doctors; expand the compact search; combine availability, specialty, and consultation-mode filters; view profiles and choose sample slots. Search drafts and typing focus survive filter updates. |
+| **My Health** | Open sample appointments, aftercare summaries, the prescription wallet, and the scanner. Identified by the heartbeat icon. |
+| **Find medicines** | Search the example medicine, compare three fictional pharmacy branches in list or map view, inspect price/stock scenarios, and open branch details. Accessible through Home, prescriptions, and Scan. |
+
+The interface uses E-JUAN flag blue, visible red/yellow accents, white pharmacy cards, light-blue doctor directory cards, and a rounded navigation bar with a raised center Scan button.
+
+## The care journey
+
+~~~mermaid
+flowchart LR
+    A[Ask Juan or Find Care] --> B[Choose a doctor]
+    B --> C[Choose mode, day and time]
+    C --> D[Check care options]
+    D --> E[Review and confirm]
+    E --> F[Sample consultation]
+    F --> G[Aftercare and prescription]
+    G --> H[Find medicines]
+~~~
+
+1. **Find a starting point.** Tell Ask Juan what is going on, or browse doctors directly. Guided intake asks who needs care, how long the concern has lasted, and about warning signs. Urgent warning descriptions or answers lead to separate urgent-care guidance.
+2. **Choose a doctor.** Care matches show fictional doctors immediately. Compare available-now or later options, choose from a card, or inspect the profile first.
+3. **Choose how and when to talk.** Pick video, voice, or text when supported, then select a sample day and time. Days without slots show an unavailable state; Pediatrics demonstrates a provider without online slots.
+4. **Review care options.** Choose standard booking, a fictional approved LGU-beneficiary scenario, or separate PhilHealth YAKAP guidance.
+5. **Confirm your choices.** Review the fee, schedule, and pathway. Sharing the Ask Juan summary is optional and unchecked by default. Confirmation creates a local sample booking without contacting a provider or charging money.
+6. **Explore aftercare.** Try a simulated consultation, open the example aftercare or prescription, and continue to pharmacy discovery. These records are also accessible from My Health.
+
+## Care options stay separate
+
+| Pathway | Prototype behavior |
+| --- | --- |
+| **Standard consultation** | Continue with the displayed sample fee. No benefit verification is required. |
+| **LGU-funded consultation** | Funding is shown only in the explicitly approved sample beneficiary scenario. Pending or unverified states can continue with standard booking. Provider, service, entitlement, and budget approval are not inferred. |
+| **PhilHealth YAKAP** | View guidance toward an applicable accredited primary-care clinic. It is not an automatic discount or subsidy for the selected online consultation. |
+
+PhilHealth verification does **not** establish LGU-funded eligibility. A possible monthly free-consultation ceiling remains a proposed, configurable concept—not a confirmed entitlement.
+
+## Demo boundaries
+
+- **Care navigation, not clinical advice.** Ask Juan suggests pathways; it does not diagnose, prescribe, or verify that a specialist is suitable.
+- **Fictional providers and bookings.** Names, credentials, reviews, fees, availability, consultations, and confirmations are sample data. “Available now” means available in the demo scenario.
+- **Example extraction, not OCR.** Selecting a prescription file records its name and shows preset editable fields. The file contents are not read or uploaded, and no OCR, QR decoding, or camera API is connected.
+- **Sample medicine listings.** Only **Paracetamol 500 mg** has example results. Other medicine searches show an empty state. Prices, distances, map locations, and stock updates are fictional; contact and directions actions are demonstrations.
+- **Local session state.** Data stays in browser memory and resets when the page is refreshed. No account, cloud storage, patient-record transmission, government connection, payment, or production AI integration is implemented.
+
+## Project structure
+
+~~~text
+e-juan-prototype/
+├── index.html          # App shell and shared SVG icons
+├── styles.css          # E-JUAN branding and responsive layouts
+├── app.js              # Screens, local demo data, and interactions
+├── assets/             # Illustrated fictional clinician portraits
+├── docs/
+│   └── images/
+│       └── home-desktop.png
+├── DESIGN_NOTES.md     # Product decisions and flow rules
+└── README.md
+~~~
+
+Read [DESIGN_NOTES.md](DESIGN_NOTES.md) for the reasoning behind the care journey and eligibility rules. The existing preview-*-v2.png files are earlier screen snapshots; the main-page image above reflects the current interface.
+
+---
+
+<p align="center"><strong>E-JUAN · Alagang Abot-Kamay</strong><br>Davao City · Interactive healthcare design concept</p>

@@ -206,8 +206,7 @@ button{color:inherit;min-width:44px}
 .test-tools{background:var(--yellow-bg);border-color:#F2E7A1}
 .orb .core{box-shadow:7px -7px 0 var(--yellow),-7px 7px 0 var(--danger)}
 .journey-row{box-shadow:inset 3px 0 var(--danger);padding-left:12px}.journey-num{color:var(--yellow)}
-.starter-grid button:nth-child(odd),.answer-option:nth-child(odd),.match-context,.question-card{background-color:#FFF0F2;border-color:#F8D8DE}
-.starter-grid button:nth-child(even),.answer-option:nth-child(even),.summary-review,.receipt-card,.card.soft{background-color:var(--yellow-bg);border-color:#F2E7A1}
+.summary-review,.receipt-card,.card.soft{background-color:var(--yellow-bg);border-color:#F2E7A1}
 .mode-card{background-image:linear-gradient(90deg,var(--danger) 0 35%,var(--yellow) 35% 70%,transparent 70%);background-size:100% 4px;background-position:top;background-repeat:no-repeat}
 .mode-card:not(.active):nth-child(2){background-color:#FFF0F2;border-color:#F8D8DE}
 .mode-card:not(.active):nth-child(3){background-color:var(--yellow-bg);border-color:#F2E7A1}
@@ -250,3 +249,38 @@ button{color:inherit;min-width:44px}
 .nav-item[data-nav="scan"]:hover{background:transparent}.nav-item[data-nav="scan"]:hover .nav-icon{background:var(--blue-deep)}
 .nav-item:focus-visible{outline:3px solid var(--danger);outline-offset:2px}
 @media(max-width:370px){.bottom-nav{margin-left:6px;margin-right:6px;padding-left:2px;padding-right:2px}.nav-item,.nav-item.active{font-size:10px}.nav-item[data-nav="scan"] .nav-icon{width:58px;height:58px}}
+
+/* Ask Juan keeps a blue conversation palette without recoloring service cards. */
+.ask-view .ask-intro{margin:32px 0;gap:0}
+.ask-view .ask-intro p{max-width:100%}
+.ask-view .starter-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:10px}
+.ask-view .starter-grid button{min-height:58px;padding:13px;text-align:left;border-radius:15px;background:var(--blue-tint);border-color:var(--blue-line);color:var(--blue);line-height:1.5}
+.ask-view .starter-grid button:hover{background:#DFEAFF;border-color:var(--blue)}
+.ask-view .ask-composer{margin-top:auto}
+.ask-view .composer-card{padding:14px;border-color:var(--blue-line);background:#F8FAFF;box-shadow:0 4px 18px #0038A80A}
+.ask-view .composer-card:focus-within{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-tint)}
+.ask-view .composer-actions .flat-icon{width:44px;height:44px;border-radius:13px}
+.intake-view .chat-body{gap:16px;padding-top:12px}
+.intake-view .user-bubble{background:var(--blue);color:#fff;font-size:14px;border-radius:20px 20px 6px 20px;overflow-wrap:anywhere;box-shadow:0 3px 10px #0038A815}
+.intake-view .ai-message{gap:10px}
+.intake-view .ai-avatar{width:30px;height:30px;border-radius:11px;margin-top:8px}
+.intake-view .ai-text{min-width:0;padding:12px 14px;background:#fff;border:1px solid var(--blue-line);border-radius:6px 17px 17px;color:var(--ink2)}
+.intake-view .question-card{margin-left:0;padding:22px 18px 18px;border-radius:22px;background-color:var(--blue-tint);border-color:var(--blue-line);box-shadow:0 6px 20px #0038A80A}
+.intake-view .progress-dots{gap:6px;margin-bottom:18px}
+.intake-view .progress-dots span{flex:1;width:auto;background:#D6E3FC}
+.intake-view .progress-dots span.active{background:var(--blue)}
+.intake-view .question-card h3{font-size:20px;line-height:1.3;color:var(--blue);margin-bottom:8px;letter-spacing:-.4px}
+.intake-view .question-card>p{margin-bottom:18px}
+.intake-view .option-stack{gap:10px}
+.intake-view .answer-option{min-height:52px;padding:14px;background:#fff;border-color:var(--blue-line);border-radius:14px;color:var(--blue);gap:12px;line-height:1.5}
+.intake-view .answer-option svg{color:var(--blue);flex-shrink:0;width:17px;height:17px}
+.intake-view .answer-option:hover{background:#DFEAFF;border-color:var(--blue)}
+.intake-view .answered-context{margin:0;gap:6px}
+.intake-view .answer-tag,.match-view .answer-tag{background:#DFEAFF;color:var(--blue);border:1px solid var(--blue-line);white-space:normal;overflow-wrap:anywhere}
+.intake-view .chat-body>div:has(>[data-action="emergency"]){margin-left:0!important}
+.intake-view [data-action="emergency"]{min-height:44px;color:var(--danger);border-color:#F8D8DE;background:#fff}
+.intake-view .footer-actions .info-box{background:#F8FAFF}
+.match-view .ai-match-intro,.match-view .match-context,.match-view .doctor-card{background-color:var(--blue-tint);border-color:var(--blue-line)}
+.match-view .match-context>p{overflow-wrap:anywhere}
+.match-view .ai-match-intro h1{color:var(--blue)}
+.ask-view .starter-grid button:focus-visible,.intake-view .answer-option:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
