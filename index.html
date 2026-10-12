@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f9fbfc" />
+  <meta name="description" content="E-JUAN — Alagang Abot-Kamay. Interactive citizen-facing healthcare UX concept for Davao City." />
+  <title>E-JUAN — Healthcare, made closer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6M9 12h12"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V10Z"/><path d="M9 21v-7h6v7"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="m12 3 1.8 6.2L20 11l-6.2 1.8L12 19l-1.8-6.2L4 11l6.2-1.8L12 3ZM19 17l.7 1.8L21.5 19.5l-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7L19 17Z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0l-1 1-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+    <symbol id="i-heart-pulse" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0l-1 1-1-1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/><path d="M3 12h5l2-3 3 6 2-3h6"/></symbol>
+    <symbol id="i-stethoscope" viewBox="0 0 24 24"><path d="M5 3v6a5 5 0 0 0 10 0V3M3 3h4M13 3h4M10 14v2a5 5 0 0 0 10 0v-2"/><circle cx="20" cy="12" r="2"/></symbol>
+    <symbol id="i-pill" viewBox="0 0 24 24"><path d="M10.5 3.5 3.6 10.4a6 6 0 0 0 8.5 8.5l6.9-6.9a6 6 0 1 0-8.5-8.5ZM7 7l10 10"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="7.3"/><path d="m16.3 16.3 4.5 4.5"/></symbol>
+    <symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.7"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-shield-check" viewBox="0 0 24 24"><path d="m12 2 8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4Z"/><path d="m8.5 12 2.3 2.4L16 9.5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 7"/></symbol>
+    <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.7 2.7L16 9.5"/></symbol>
+    <symbol id="i-alert-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v6M12 17h.01"/></symbol>
+    <symbol id="i-alert-triangle" viewBox="0 0 24 24"><path d="m10.3 4-8.2 14a2 2 0 0 0 1.8 3h16.2a2 2 0 0 0 1.8-3L13.7 4a2 2 0 0 0-3.4 0Z"/><path d="M12 9v5M12 18h.01"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5h.01"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M20 11.5a8.5 8.5 0 0 1-8.5 8.5 9 9 0 0 1-4-.9L3 21l1.9-4.5a8.5 8.5 0 1 1 15.1-5Z"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4 20-7ZM11 13 22 2"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="13" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4M8 22h8"/></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24"><rect x="2" y="5" width="15" height="14" rx="3"/><path d="m17 10 5-3v10l-5-3"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6 3h3l2 5-2 2a14 14 0 0 0 5 5l2-2 5 2v3a3 3 0 0 1-3.2 3C9.7 20.3 3.7 14.3 3 6.2A3 3 0 0 1 6 3Z"/></symbol>
+    <symbol id="i-file-text" viewBox="0 0 24 24"><path d="M6 2h8l5 5v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1Z"/><path d="M14 2v6h5M8 13h8M8 17h6"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><path d="M8 4h8l2 3h3v13H3V7h3l2-3Z"/><circle cx="12" cy="13" r="4"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V3m-5 5 5-5 5 5M4 16v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="2" fill="currentColor" stroke="none"/><circle cx="16" cy="17" r="2" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h12M9 12h12M9 18h12M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="m3 5 6-3 6 3 6-3v17l-6 3-6-3-6 3V5ZM9 2v17M15 5v17"/></symbol>
+    <symbol id="i-more" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="10" cy="8" r="3.5"/><path d="M3 20a7 7 0 0 1 14 0M17 5a3.5 3.5 0 0 1 0 7M18 15a6 6 0 0 1 4 5"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 8-3 9h18c0-1-3-2-3-9ZM10 21h4"/></symbol>
+    <symbol id="i-navigation" viewBox="0 0 24 24"><path d="m3 11 18-8-8 18-2-8-8-2Z"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="m4 16-1 5 5-1L20 8a3 3 0 0 0-4-4L4 16ZM14 6l4 4"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M5.7 9A7.5 7.5 0 0 1 19 7l1 5M4 12l1 5a7.5 7.5 0 0 0 13.3-2"/></symbol>
+    <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2 8a15 15 0 0 1 20 0M5 11a10.5 10.5 0 0 1 14 0M8.5 14.5a5 5 0 0 1 7 0M12 19h.01"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="12" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+    <symbol id="i-external-link" viewBox="0 0 24 24"><path d="M13 4h7v7M20 4l-10 10M20 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-volume" viewBox="0 0 24 24"><path d="m4 10 4 0 5-5v14l-5-5H4v-4ZM17 9a5 5 0 0 1 0 6"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.5 2.9 6 6.6 1-4.8 4.7 1.1 6.6-5.8-3.1-5.8 3.1 1.1-6.6-4.8-4.7 6.6-1 2.9-6Z"/></symbol>
+  </svg>
+
+  <main class="showcase">
+    <aside class="story-panel">
+      <div class="brand-lockup"><div class="brand-symbol"><span></span><span></span></div><span>E-JUAN</span><span class="brand-divider"></span><span class="brand-sub">DESIGN CONCEPT</span></div>
+      <div class="story-main">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> A BETTER WAY TO FIND CARE</div>
+        <h1>Good care<br/>feels <em>closer.</em></h1>
+        <p>From the first question to the next step in your care. A calmer, clearer healthcare experience for everyday Filipinos.</p>
+        <div class="story-buttons">
+          <button class="story-primary" data-nav="home">Explore the app <svg><use href="#i-arrow-right"/></svg></button>
+          <button class="story-link" data-nav="ask">Try Ask Juan <svg><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </div>
+      <div class="journey-panel">
+        <div class="journey-heading"><span>EXPLORE THE JOURNEY</span><span>01 — 04</span></div>
+        <button data-nav="ask" class="journey-row"><span class="journey-num">01</span><span>Ask Juan<span class="journey-desc">Guided care navigation</span></span><svg><use href="#i-chevron-right"/></svg></button>
+        <button data-nav="directory" class="journey-row"><span class="journey-num">02</span><span>Find a doctor<span class="journey-desc">Compare & book care</span></span><svg><use href="#i-chevron-right"/></svg></button>
+        <button data-nav="coverageInfo" class="journey-row"><span class="journey-num">03</span><span>Care options<span class="journey-desc">Understand eligibility</span></span><svg><use href="#i-chevron-right"/></svg></button>
+        <button data-nav="pharmacies" class="journey-row"><span class="journey-num">04</span><span>Find medicines<span class="journey-desc">Prescription to pharmacy</span></span><svg><use href="#i-chevron-right"/></svg></button>
+      </div>
+      <div class="story-footer"><span>Alagang Abot-Kamay</span><span>Davao City · Fictional prototype</span></div>
+    </aside>
+    <section class="preview-area" aria-label="Interactive mobile app preview">
+      <div class="ambient-circle ambient-one"></div><div class="ambient-circle ambient-two"></div>
+      <div class="preview-caption"><span class="live-dot"></span> INTERACTIVE PROTOTYPE <span class="caption-divider">/</span> MOBILE VIEW</div>
+      <div class="device" id="device"><div class="device-inner">
+        <div class="status-bar" aria-hidden="true"><span>9:41</span><div class="status-right"><svg viewBox="0 0 24 14" fill="currentColor" width="19" height="12"><rect x="1" y="10" width="3.5" height="3.5" rx=".8"/><rect x="6" y="7.5" width="3.5" height="6" rx=".8"/><rect x="11" y="4.7" width="3.5" height="8.8" rx=".8"/><rect x="16" y="1.5" width="3.5" height="12" rx=".8"/></svg><svg viewBox="0 0 24 16" width="18" height="13" fill="none"><path d="M2 5c5.5-4.5 14.5-4.5 20 0M5 9c4-3 10-3 14 0M9 13c1.7-1.5 4.3-1.5 6 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg><svg viewBox="0 0 30 14" width="26" height="13"><rect x="1" y="1" width="25" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="3.5" y="3.4" width="19" height="7.2" rx="1.5" fill="currentColor"/><path d="M28 5v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></div></div>
+        <div class="screen" id="screen" aria-live="polite"></div>
+        <div class="bottom-nav" id="bottom-nav"></div>
+        <div class="toast" id="toast" role="status"></div>
+        <div class="home-indicator" aria-hidden="true"></div>
+      </div></div>
+      <div class="device-caption"><span class="screen-label" id="screen-label">HOME / OVERVIEW</span><span>Built for touch. Made to explore.</span></div>
+    </section>
+  </main>
+  <input type="file" id="prescription-file" accept="image/*,.pdf" hidden />
+  <script src="app.js"></script>
+</body>
+</html>
