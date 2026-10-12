@@ -32,6 +32,10 @@ E-JUAN brings the next steps in care into one place: describe a concern, explore
 
 No package install, account, API key, internet connection, or backend is required.
 
+### Competition pitch
+
+Open [the 13-slide E-JUAN pitch](pitch/index.html) directly, or visit `/pitch/` on your local server. It uses real prototype screenshots, the current branding, and an expanded story with three-presenter notes based on the supplied script. Arrow keys / Space navigate, **F** enters fullscreen, and **N** shows speaker notes. A [PDF version](pitch/E-JUAN-Pitch.pdf) and [presenting guide](pitch/README.md) are included. The original app remains independent of the presentation.
+
 For a local HTTP preview, if Python is installed, run this from the project folder:
 
 ~~~bash
@@ -46,7 +50,7 @@ Then open [localhost:4173](http://127.0.0.1:4173).
 | --- | --- |
 | **Home** | Care shortcuts, an introduction to Ask Juan, medicine discovery, and care-option information. |
 | **Ask Juan** | Describe a concern, answer three guided questions, and explore suggested care and doctor matches. Includes urgent-warning and connection-retry paths. |
-| **Scan** | Open the prescription file picker or a sample scan, review editable example fields, and search for medicine listings. Uses the raised **Rx prescription** action. |
+| **Scan** | Open the camera, frame a prescription, and take a local photo. Upload is a secondary option. Review editable sample fields and search for medicine listings. Uses the raised **Rx prescription** action. |
 | **Find Care** | Browse fictional doctors; expand the compact search; combine availability, specialty, and consultation-mode filters; view profiles and choose sample slots. Search drafts and typing focus survive filter updates. |
 | **My Health** | Open sample appointments, aftercare summaries, the prescription wallet, and the scanner. Identified by the heartbeat icon. |
 | **Find medicines** | Search the example medicine, compare three fictional pharmacy branches in list or map view, inspect price/stock scenarios, and open branch details. Accessible through Home, prescriptions, and Scan. |
@@ -87,7 +91,7 @@ PhilHealth verification does **not** establish LGU-funded eligibility. A possibl
 
 - **Care navigation, not clinical advice.** Ask Juan suggests pathways; it does not diagnose, prescribe, or verify that a specialist is suitable.
 - **Fictional providers and bookings.** Names, credentials, reviews, fees, availability, consultations, and confirmations are sample data. “Available now” means available in the demo scenario.
-- **Example extraction, not OCR.** Selecting a prescription file records its name and shows preset editable fields. The file contents are not read or uploaded, and no OCR, QR decoding, or camera API is connected.
+- **Local camera capture; sample fields, not OCR.** Camera access starts when you choose Open camera. Captured photos stay in the browser session; the camera stops after capture or leaving the scanner. Selecting an uploaded file records its name without reading or sending its contents. Both paths show preset editable fields, not information extracted from your photo. No OCR or QR decoding is connected. Camera access needs browser permission and a [secure context such as HTTPS or localhost](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia); upload and the sample preview remain available as fallbacks.
 - **Sample medicine listings.** Only **Paracetamol 500 mg** has example results. Other medicine searches show an empty state. Prices, distances, map locations, and stock updates are fictional; contact and directions actions are demonstrations.
 - **Local session state.** Data stays in browser memory and resets when the page is refreshed. No account, cloud storage, patient-record transmission, government connection, payment, or production AI integration is implemented.
 

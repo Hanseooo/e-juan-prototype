@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0038A8">
+  <meta name="description" content="E-JUAN's 13-slide concept pitch for PSITE XI 2026. Real prototype interfaces, a self-contained product story, and fictional demonstration data.">
+  <title>E-JUAN · PSITE XI 2026 Pitch</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="pitch.css">
+  <script src="notes.js" defer></script>
+  <script src="pitch.js" defer></script>
+</head>
+<body class="pitch">
+  <main id="viewport" aria-label="E-JUAN pitch presentation">
+    <div id="stage">
+      <section class="slide opening blue-slide" aria-labelledby="title-1">
+        <header><div class="brand-lockup"><div class="brand-symbol"><span></span><span></span></div><span>E-JUAN</span></div><span class="edition">PSITE XI IT Pitching Competition 2026</span></header>
+        <div class="opening-copy">
+          <p class="eyebrow">ALAGANG ABOT-KAMAY</p>
+          <h1 id="title-1">One concern.<br>A clearer path<br>to <em>care.</em></h1>
+          <p class="lead">From finding appropriate care to locating prescribed medicine.<br>One proposed journey for Davao City.</p>
+          <p class="promise">Easier for residents.<br>Accountable for sponsors.</p>
+        </div>
+        <button class="screen-image hero-phone" data-screen="ask" aria-label="Enlarge actual Ask Juan prototype screen"><img src="assets/ask.png" alt="Actual Ask Juan interface with care shortcuts and concern composer" width="800" height="1700"></button>
+        <span class="phone-caption">ACTUAL PROTOTYPE / FICTIONAL DATA</span>
+        <footer><span>Healthcare navigation &amp; institutional care coordination</span><span>01 / 13</span></footer>
+      </section>
+
+      <section class="slide problem" aria-labelledby="title-2" hidden>
+        <header><span class="section-tag">THE PROBLEM</span><span class="small-brand">E-JUAN</span></header>
+        <h2 id="title-2">Getting healthcare shouldn’t mean<br>figuring out everything <em>alone.</em></h2>
+        <div class="fragmented-journey" aria-label="Four decisions in a fragmented patient journey">
+          <div><span class="question-number">01</span><h3>Where<br>do I go?</h3><p>Find the starting point</p></div>
+          <span class="broken-link" aria-hidden="true">···</span>
+          <div><span class="question-number">02</span><h3>Which<br>provider?</h3><p>Choose appropriate care</p></div>
+          <span class="broken-link" aria-hidden="true">···</span>
+          <div><span class="question-number">03</span><h3>Am I<br>covered?</h3><p>Understand eligibility</p></div>
+          <span class="broken-link" aria-hidden="true">···</span>
+          <div><span class="question-number">04</span><h3>Where is<br>my medicine?</h3><p>Find prescribed medicine</p></div>
+        </div>
+        <div class="context-band">
+          <div><strong>1,848,947</strong><span>Davao City residents<br>2024 census</span></div>
+          <div><strong>41.2<span class="percent">%</span></strong><span>PH current health spending paid out of pocket<br>2025</span></div>
+        </div>
+        <p class="takeaway">Better coordination <em>may</em> make existing care easier to access.</p>
+        <footer><span>Context, not proof of demand or measured access friction. <a href="https://rsso11.psa.gov.ph/system/files/11RSSO-DEL-SUR/Attachments/SR-2025-08PSO24-040.pdf">PSA 2024 census</a> · <a href="https://psa.gov.ph/statistics/pnha">PSA 2025 PNHA</a></span><span>02 / 13</span></footer>
+      </section>
+
+      <section class="slide product" aria-labelledby="title-3" hidden>
+        <header><span class="section-tag">THE PRODUCT JOURNEY</span><span class="small-brand">E-JUAN</span></header>
+        <h2 id="title-3">One guided journey. <em>From concern to care.</em></h2>
+        <p class="product-intro">Real prototype screens. The connected service is proposed.</p>
+        <div class="product-journey">
+          <article><div class="step-heading"><span>01</span><h3>ASK</h3></div><button class="screen-image" data-screen="intake" aria-label="Enlarge actual guided intake screen"><img src="assets/intake.png" alt="Ask Juan asks who needs care and explains it provides navigation, not diagnosis" width="800" height="1700"></button><p>Non-emergency intake.<br>Guidance without diagnosis.</p></article>
+          <article><div class="step-heading"><span>02</span><h3>MATCH</h3></div><button class="screen-image" data-screen="match" aria-label="Enlarge actual care matches screen"><img src="assets/match.png" alt="Care matches with fictional doctors and sample availability" width="800" height="1700"></button><p>Suitable care options.<br>Public / covered first.*</p></article>
+          <article><div class="step-heading"><span>03</span><h3>CHECK</h3></div><button class="screen-image" data-screen="check" aria-label="Enlarge actual care options screen"><img src="assets/check.png" alt="Care options with separate standard, conditional LGU-funded and YAKAP pathways" width="800" height="1700"></button><p>Sponsor eligibility rules.*<br>Visit &amp; budget controls.*</p></article>
+          <article><div class="step-heading"><span>04</span><h3>CONSULT</h3></div><button class="screen-image" data-screen="consult" aria-label="Enlarge actual simulated consultation screen"><img src="assets/consult.png" alt="Simulated video consultation explicitly labeled as a visual concept with no real clinician" width="800" height="1700"></button><p>Appointment request.*<br>Consent-based handoff.*</p></article>
+          <article><div class="step-heading"><span>05</span><h3>LOCATE</h3></div><button class="screen-image" data-screen="locate" aria-label="Enlarge actual medicine listings screen"><img src="assets/locate.png" alt="Paracetamol 500 mg example pharmacy search showing fictional prices and stock scenarios" width="800" height="1700"></button><p>Prescribed medicine search.<br>Confirm pharmacy stock.*</p></article>
+        </div>
+        <div class="journey-caption"><span>Existing prescription? Start with medicine search.</span><span>Sponsors see eligibility, booking &amp; spending records.*</span></div>
+        <footer><span>Fictional data throughout. *Proposed connected behavior. No live care, eligibility, handoff, stock or sponsor integration. Clinicians diagnose and prescribe.</span><span>03 / 13</span></footer>
+      </section>
+
+      <section class="slide walkthrough" aria-labelledby="title-4" hidden>
+        <header><span class="section-tag">ASK JUAN / A CLEAR STARTING POINT</span><span class="small-brand">E-JUAN</span></header>
+        <h2 id="title-4">Describe a concern.<br><em>Find the next step.</em></h2>
+        <div class="walkthrough-content">
+          <div class="screen-pair"><figure><button class="screen-image" data-screen="ask" aria-label="Enlarge Ask Juan start"><img src="assets/ask.png" alt="Actual Ask Juan start with four care shortcuts" width="800" height="1700"></button><figcaption>Choose a starting point</figcaption></figure><figure><button class="screen-image" data-screen="intake" aria-label="Enlarge guided intake"><img src="assets/intake.png" alt="Actual first question of a three-step guided intake" width="800" height="1700"></button><figcaption>Answer three short questions</figcaption></figure></div>
+          <div class="explanation"><p class="walkthrough-lead">Describe a concern, find a doctor, or start with medicine search.</p><ol class="explain-steps"><li><strong>Who needs care?</strong><span>Identify who the concern is for.</span></li><li><strong>How long has it lasted?</strong><span>A short intake organizes the concern.</span></li><li><strong>Any warning signs?</strong><span>Urgent warning signs lead to separate urgent-care guidance.</span></li></ol><p class="key-statement">Juan guides navigation. A licensed clinician makes clinical decisions.</p></div>
+        </div>
+        <footer><span>Actual app screens and local demonstration rules. No connected AI model, diagnosis, prescribing or emergency service.</span><span>04 / 13</span></footer>
+      </section>
+
+      <section class="slide walkthrough" aria-labelledby="title-5" hidden>
+        <header><span class="section-tag">MATCH &amp; CHECK / CARE WITH A FUNDING PATH</span><span class="small-brand">E-JUAN</span></header>
+        <h2 id="title-5">Choose care.<br><em>Understand who pays.</em></h2>
+        <div class="walkthrough-content">
+          <div class="screen-pair"><figure><button class="screen-image" data-screen="match" aria-label="Enlarge care matches"><img src="assets/match.png" alt="Actual fictional general physician matches with sample availability" width="800" height="1700"></button><figcaption>Compare doctors &amp; sample slots</figcaption></figure><figure><button class="screen-image" data-screen="check" aria-label="Enlarge care options"><img src="assets/check.png" alt="Actual explicitly approved LGU-beneficiary sample and separate YAKAP pathway" width="800" height="1700"></button><figcaption>Review separate care pathways</figcaption></figure></div>
+          <div class="explanation"><p class="walkthrough-lead">The proposed connected service would prioritize available public or covered care, then relevant participating providers.</p><ol class="explain-steps"><li><strong>Standard care</strong><span>The prototype can continue with the displayed sample fee.</span></li><li><strong>Sponsored care, when approved</strong><span>A future program must check beneficiary rules, provider, service, visit allowance and remaining budget.</span></li><li><strong>PhilHealth YAKAP</strong><span>A separate primary-care pathway. Membership alone does not approve an LGU-funded consultation.</span></li></ol></div>
+        </div>
+        <footer><span>Fictional providers, availability and approval. Public-first ranking and institutional verification remain proposed.</span><span>05 / 13</span></footer>
+      </section>
+
+      <section class="slide walkthrough" aria-labelledby="title-6" hidden>
+        <header><span class="section-tag">CONSULT / THE PATIENT CONTROLS THE HANDOFF</span><span class="small-brand">E-JUAN</span></header>
+        <h2 id="title-6">Review the appointment.<br><em>Choose what to share.</em></h2>
+        <div class="walkthrough-content">
+          <div class="screen-pair"><figure><button class="screen-image" data-screen="review" aria-label="Enlarge actual optional consent review"><img src="assets/review.png" alt="Actual booking review with optional Ask Juan summary sharing unchecked by default" width="800" height="1700"></button><figcaption>Review details &amp; optional consent</figcaption></figure><figure><button class="screen-image" data-screen="consult" aria-label="Enlarge simulated consultation"><img src="assets/consult.png" alt="Actual simulated video consultation with no real clinician" width="800" height="1700"></button><figcaption>Explore the consultation preview</figcaption></figure></div>
+          <div class="explanation"><ol class="explain-steps"><li><strong>Confirm the care choices</strong><span>Provider, time, consultation mode, funding pathway and sample total appear before confirmation.</span></li><li><strong>Share the intake only by choice</strong><span>The real review screen leaves summary-sharing consent unchecked by default.</span></li><li><strong>A clinician retains authority</strong><span>In the proposed service, a licensed clinician reviews the concern, diagnoses and prescribes.</span></li></ol><p class="key-statement">The current demo creates a local sample booking and simulates a consultation.</p></div>
+        </div>
+        <footer><span>No clinician is contacted, no patient record is transmitted and nothing is charged. Connected appointments and handoff remain proposed.</span><span>06 / 13</span></footer>
+      </section>
+
+      <section class="slide walkthrough" aria-labelledby="title-7" hidden>
+        <header><span class="section-tag">LOCATE / A PRESCRIPTION HAS A NEXT STEP</span><span class="small-brand">E-JUAN</span></header>
+        <h2 id="title-7">Find the prescribed medicine.<br><em>Confirm before going.</em></h2>
+        <div class="walkthrough-content">
+          <div class="screen-pair"><figure><button class="screen-image" data-screen="prescription" aria-label="Enlarge actual prescription wallet"><img src="assets/prescription.png" alt="Actual prescription wallet containing a fictional Paracetamol 500 mg record marked invalid for medical use" width="800" height="1700"></button><figcaption>Open the example prescription</figcaption></figure><figure><button class="screen-image" data-screen="locate" aria-label="Enlarge actual pharmacy listings"><img src="assets/locate.png" alt="Actual example pharmacy listings with different stock-confidence states" width="800" height="1700"></button><figcaption>Compare nearby sample listings</figcaption></figure></div>
+          <div class="explanation"><p class="walkthrough-lead">Medicine search can follow a consultation or serve someone who already has a prescription.</p><ol class="explain-steps"><li><strong>Search the medicine</strong><span>The current demo has example results for Paracetamol 500 mg.</span></li><li><strong>Compare the listings</strong><span>Sample branches show prices, distance, stock status and update age.</span></li><li><strong>Request stock confirmation</strong><span>A future pharmacy partner would confirm availability before the resident travels.</span></li></ol><p class="key-statement">A reported listing is not a guarantee of current stock.</p></div>
+        </div>
+        <footer><span>Prescriptions, pharmacy locations, prices and stock are fictional. No inventory integration or real pharmacy confirmation is connected.</span><span>07 / 13</span></footer>
+      </section>
+
+      <section class="slide sponsor" aria-labelledby="title-8" hidden>
+        <header><span class="section-tag">INSTITUTIONAL VALUE / COORDINATION WITH ACCOUNTABILITY</span><span class="small-brand">E-JUAN</span></header>
+        <h2 id="title-8">Residents need a path.<br><em>Sponsors need accountable records.</em></h2>
+        <p class="section-intro">A proposed institutional license supports a program from eligibility to completed-service reconciliation.</p>
+        <div class="sponsor-columns"><article><span class="column-label">BEFORE A SPONSORED VISIT</span><h3>Approve the right use<br>of program funding.</h3><ul><li>Apply the institution’s beneficiary rules</li><li>Check the approved provider and service</li><li>Check visit allowance and budget</li><li>Authorize eligible appointment requests</li></ul></article><article><span class="column-label">AFTER A COMPLETED VISIT</span><h3>Connect the service<br>to its spending record.</h3><ul><li>Reconcile bookings with completed visits</li><li>Record the approved clinical payment</li><li>Monitor spending against program limits</li><li>Measure staff effort and renewal value</li></ul></article></div>
+        <div class="privacy-boundary"><strong>Access follows the role.</strong><p>Proposed sponsor access: eligibility, booking and expenditure records.<br>Clinical details stay with the patient and authorized care team, with consent-based handoff.</p></div>
+        <footer><span>Proposed institutional workflow. Sponsor dashboards, audit records and production access controls are not implemented in this prototype.</span><span>08 / 13</span></footer>
+      </section>
+
+      <section class="slide maturity" aria-labelledby="title-9" hidden>
+        <header><span class="section-tag">PRODUCT STATUS / WHAT EXISTS AND WHAT COMES NEXT</span><span class="small-brand">E-JUAN</span></header>
+        <h2 id="title-9">An interactive prototype.<br><em>A connected service to validate.</em></h2>
+        <div class="maturity-columns"><article><span class="column-label">AVAILABLE TO EXPLORE TODAY</span><h3>23 screens.<br>One local demo.</h3><ul><li>Guided intake and urgent-warning routes</li><li>Doctor filters, sample slots and booking review</li><li>Separate care pathways and optional consent</li><li>Consultation, prescription and pharmacy previews</li></ul><p>Self-contained HTML, CSS and JavaScript.<br>No account, backend or internet required.</p></article><article><span class="column-label">REQUIRED FOR AN AUTHORIZED PILOT</span><h3>Approved partners.<br>Verified operations.</h3><ul><li>Provider and sponsor authorization</li><li>Identity, eligibility and availability checks</li><li>Secure clinical handoff and role-based records</li><li>Real pharmacy confirmation and program reconciliation</li></ul><p>Clinical, funding and data-protection arrangements must precede a connected pilot.</p></article></div>
+        <p class="takeaway">Current screens demonstrate the experience. <em>Pilot evidence must establish its value.</em></p>
+        <footer><span>All screenshots use fictional data. No signed partners, paying customers, deployed clinical service or demonstrated patient outcomes.</span><span>09 / 13</span></footer>
+      </section>
+
+      <section class="slide competition" aria-labelledby="title-10" hidden>
+        <header><span class="section-tag">OUR PROPOSED FOCUS</span><span class="small-brand">E-JUAN</span></header>
+        <h2 id="title-10">We don’t replace healthcare.<br><em>We connect its moving parts.</em></h2>
+        <div class="comparison">
+          <article><span class="column-label">EXISTING TELEHEALTH</span><h3>NowServing<br>mWell</h3><p>Provider discovery, consultations and prescription-related services.</p><p class="detail">mWell already offers LGU community solutions.</p></article>
+          <article><span class="column-label">EXISTING PUBLIC CARE</span><h3>PhilHealth YAKAP<br>Davao City CHO</h3><p>Covered care, referrals and public healthcare support.</p><p class="detail">Existing services are the starting point.</p></article>
+          <article class="ejuan-focus"><span class="column-label">COORDINATION TO VALIDATE</span><h3>E-JUAN</h3><p>One configurable institution-led workflow.</p><ul><li>Care navigation &amp; sponsor rules</li><li>Authorized booking &amp; spending records</li><li>Local medicine confirmation</li></ul></article>
+        </div>
+        <p class="takeaway">Our opportunity: <em>a better-coordinated journey.</em></p>
+        <footer><span>Incremental value must beat existing platforms and in-house systems. <a href="https://nowserving.ph/">NowServing</a> · <a href="https://www.mwell.com.ph/lgu-community">mWell</a> · <a href="https://www.philhealth.gov.ph/yakap/">YAKAP</a> · <a href="https://davaocity.gov.ph/departments/social-services/city-health-office/">Davao CHO</a></span><span>10 / 13</span></footer>
+      </section>
+
+      <section class="slide business" aria-labelledby="title-11" hidden>
+        <header><span class="section-tag">THE BUSINESS MODEL</span><span class="small-brand">E-JUAN</span></header>
+        <h2 id="title-11">Sponsors pay for coordination.<br><em>Not a cut of care.</em></h2>
+        <p class="model-label">ONE INSTITUTION / ONE ILLUSTRATIVE MONTH</p>
+        <div class="financial-model">
+          <article><span class="column-label">CLINICAL SERVICES</span><strong>₱50,000</strong><p>100 consultations × ₱500</p><span class="model-note">Paid separately to providers</span></article>
+          <span class="operator" aria-hidden="true">+</span>
+          <article class="license"><span class="column-label">E-JUAN SOFTWARE</span><strong>₱10,000</strong><p>Proposed monthly license</p><span class="model-note">E-JUAN’s illustrated revenue</span></article>
+          <span class="operator" aria-hidden="true">=</span>
+          <article><span class="column-label">INSTITUTIONAL SPENDING</span><strong>₱60,000</strong><p>Total before additional charges</p><span class="model-note">Clinical care + software</span></article>
+        </div>
+        <div class="value-test"><div class="per-visit"><strong>₱100<span>/ visit</span></strong><p>Effective software cost at 100 consultations</p></div><div><h3>Will the coordination justify its cost?</h3><p>Eligibility controls. Better booking coordination. Reconciled service records.<br>Spending oversight. Administrative efficiency.</p></div></div>
+        <footer><span>All amounts hypothetical. No verified pricing, contracts or revenue. Fixed license assumed, with no percentage of professional fees.</span><span>11 / 13</span></footer>
+      </section>
+
+      <section class="slide pilot" aria-labelledby="title-12" hidden>
+        <header><span class="section-tag">PILOT &amp; GROWTH</span><span class="small-brand">E-JUAN</span></header>
+        <h2 id="title-12">Prove it locally.<br><em>Scale what works.</em></h2>
+        <div class="roadmap">
+          <article><span class="phase-num">01</span><h3>SIMULATE</h3><p>Synthetic records.<br>Supervised workflow usability tests.</p></article>
+          <article><span class="phase-num">02</span><h3>VALIDATE</h3><p>Seek an authorized Davao City pilot.<br>Provider, sponsor &amp; pharmacy partners.</p></article>
+          <article><span class="phase-num">03</span><h3>REPLICATE</h3><p>Expand after measurable value.<br>Purchasing feasibility &amp; repeatable workflows.</p></article>
+        </div>
+        <div class="pilot-evidence"><div class="prospects"><strong>54</strong><p>Regional LGU organizations<br><b>Possible prospects. No customers.</b></p></div><div class="pilot-measures"><h3>Will qualified sponsors buy, use and renew?</h3><ul><li>Successful healthcare navigation</li><li>Administrative minutes per booking</li><li>Completed consultations reconciled</li><li>Pharmacy stock confirmation reliability</li><li>Willingness to pay and renew</li></ul></div></div>
+        <footer><span>Authorized pilot subject to clinical &amp; data-protection requirements. <a href="https://psa.gov.ph/classification/psgc/provinces/1100000000">PSA PSGC Davao Region</a>: 5 provinces + 6 cities + 43 municipalities.</span><span>12 / 13</span></footer>
+      </section>
+
+      <section class="slide closing blue-slide" aria-labelledby="title-13" hidden>
+        <header><div class="brand-lockup"><div class="brand-symbol"><span></span><span></span></div><span>E-JUAN</span></div><span class="edition">ONE CREDIBLE DAVAO CITY PILOT</span></header>
+        <div class="closing-copy"><h2 id="title-13">Make every step<br>to care <em>count.</em></h2><p class="lead">One coordinated journey.<br>More accessible navigation. Better accountability.</p><div class="partner-ask"><p>One willing healthcare provider.</p><p>One authorized institutional sponsor.</p><p>Pharmacy partners.</p><span>To validate one credible local pilot.</span></div><p class="closing-line">One concern. A clearer path to care.</p></div>
+        <button class="screen-image closing-phone" data-screen="home" aria-label="Enlarge actual E-JUAN home screen"><img src="assets/home.png" alt="E-JUAN actual home screen with Ask Juan, doctor discovery and medicine discovery" width="800" height="1700"></button>
+        <span class="phone-caption">ALAGANG ABOT-KAMAY</span>
+        <footer><span>Concept stage. No signed partners, live clinical integrations or proven institutional demand.</span><span>13 / 13</span></footer>
+      </section>
+    </div>
+  </main>
+  <nav class="controls" aria-label="Presentation controls">
+    <a class="back-app" href="../index.html" title="Open the original E-JUAN prototype">E-JUAN app</a>
+    <div class="slide-navigation"><button id="previous" aria-label="Previous slide">←</button><div id="progress" aria-label="Choose a slide"></div><button id="next" aria-label="Next slide">→</button><span id="counter" aria-live="polite">1 / 13</span></div>
+    <div class="presentation-actions"><button id="notes-toggle" aria-expanded="false" aria-controls="notes">Notes <kbd>N</kbd></button><button id="print">Save PDF</button><button id="fullscreen">Present <kbd>F</kbd></button></div>
+  </nav>
+  <aside id="notes" aria-label="Speaker notes" hidden><div class="notes-top"><h2 id="notes-title"></h2><button id="notes-close" aria-label="Close speaker notes">×</button></div><p id="notes-timing"></p><h3>Emphasize</h3><ul id="notes-emphasis"></ul><h3>Speaker notes</h3><p id="notes-script"></p><h3>Sources &amp; prototype boundaries</h3><p id="notes-sources"></p><a href="SPEAKER_NOTES.md">Complete notes &amp; original script / Q&amp;A</a></aside>
+  <dialog id="screen-dialog" aria-labelledby="screen-title"><div class="dialog-top"><h2 id="screen-title"></h2><button id="screen-close" aria-label="Close enlarged screen">×</button></div><img id="enlarged-screen" alt=""><p>Actual E-JUAN prototype. All people, records, bookings and stock are fictional.</p></dialog>
+  <p id="announcement" role="status" class="sr-only"></p>
+</body>
+</html>
