@@ -25,9 +25,13 @@ Emergency warning signs are a **separate clinical safety exception**. A routine 
 
 ## UI system
 
-Warm near-white canvas `#F9FBFC`, primary action blue `#2D689F`, charcoal/slate text, soft blue-gray surfaces, semantic green/amber/terracotta for specific states, and native system sans serif fonts. Large touch areas, simple selection pills, optional bottom navigation, and restrained transitions. No imitation of reference screenshots or government-portal aesthetics.
+E-JUAN reference branding: flag blue `#0038A8` dominates the desktop frame, home hero, primary actions and navigation. Yellow `#FCD116` and red `#CE1126` are visibly present in decorative curves, the brand mark, and two-tone healthcare icons. Existing service cards use pale red and yellow surfaces, with circular light-blue icon backplates. White app surfaces keep content readable; ink is `#14213D`, secondary surface is `#F6F8FC`, and line is `#E5EAF2`. Red still identifies urgent-care alerts and yellow identifies LGU benefit markers; green remains a confirmation/status color. Native system sans serif typography uses 14px body copy, 16px section headings, 12px metadata, and 11px uppercase eyebrows. Cards use 18px corners and controls have at least 44px touch targets. Existing screens, content, layouts, assets, navigation, consent, eligibility, and interaction logic are preserved; only shared icon artwork and CSS branding change in the color-distribution refresh.
 
 ## Screens
+
+The flag-color treatment extends to all existing routes: shared headers, cards, forms, circular icon accents, booking choices, records, prescriptions and consultation surfaces. Pale red/yellow panels accompany visible red/yellow strokes and borders; blue remains dominant for actions and active navigation. Browser verification checks that both exact accent colors are present in every route's visible mobile content, independent of the desktop backdrop or status-bar stripe.
+
+Pharmacy listings use white card fills; the doctor directory uses light blue #EEF4FF. Both retain the red/yellow top accents. These listing-specific fills do not change the care-match cards.
 
 Home, Ask Juan intro, Describe concern, 3-step dynamic symptom intake, availability-first care matches, doctor directory, doctor profile, consultation time, funding options, booking review, booking confirmation, appointment details, video/voice/text consultation mockups, aftercare, prescription wallet, scan/review, medicine/pharmacy search, pharmacy details, YAKAP guidance, benefits explainer, and emergency/error alternates.
 
