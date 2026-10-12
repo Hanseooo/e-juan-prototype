@@ -229,3 +229,24 @@ button{color:inherit;min-width:44px}
 .directory-search-control.is-open .availability-tabs{grid-column:1/-1;grid-row:2;box-shadow:none;border-bottom:0;background:var(--blue-tint)}
 .directory-search-control.is-open:focus-within{border-color:var(--blue)}
 .directory-search-field input:focus-visible{outline:none}
+
+/* Rounded navigation with a raised center prescription scanner. */
+.bottom-nav{height:80px;margin:24px 8px 18px;padding:10px 4px 8px;gap:0;align-items:flex-end;justify-content:space-between;border:1px solid var(--line);border-radius:28px;background:#fff;box-shadow:0 8px 24px #14213D12;position:relative;isolation:isolate}
+.bottom-nav::before{content:'';position:absolute;z-index:-1;top:-24px;left:50%;width:88px;height:88px;transform:translateX(-50%);border:0;border-radius:50%;background:#fff;pointer-events:none}
+.bottom-nav::after{content:'';position:absolute;bottom:0;left:42%;right:42%;height:3px;background:linear-gradient(90deg,var(--danger) 0 50%,var(--yellow) 50%);border-radius:3px;pointer-events:none}
+.nav-item,.nav-item.active{flex:1 1 0;width:20%;height:58px;min-width:44px;padding:0;border:0;border-radius:14px;background:transparent;color:var(--muted);flex-direction:column;justify-content:flex-end;gap:4px;font-size:11px;position:relative}
+.nav-icon{display:grid;place-items:center;width:32px;height:32px;flex-shrink:0;border-radius:12px}
+.nav-item svg{width:25px;height:25px;stroke-width:1.8;--icon-accent:currentColor}
+.nav-label,.nav-item.active .nav-label{display:block;white-space:nowrap;line-height:16px;font-weight:500}
+.nav-item.active{color:var(--blue)}
+.nav-item.active .nav-icon{background:transparent;color:var(--blue)}
+.nav-item.active .nav-label{font-weight:750}
+.nav-item.active svg{--icon-accent:var(--danger)}
+.nav-item[data-nav="scan"],.nav-item[data-nav="scan"].active{height:88px;gap:7px;box-shadow:none;color:var(--blue)}
+.nav-item[data-nav="scan"] .nav-icon{width:62px;height:62px;border:3px solid var(--blue-line);border-radius:50%;background:var(--blue);color:#fff;box-shadow:0 5px 14px #0038A830,inset 0 -3px var(--danger)}
+.nav-item[data-nav="scan"] svg{width:30px;height:30px;--icon-accent:var(--yellow)}
+.nav-item[data-nav="scan"].active .nav-icon{border-color:var(--yellow);background:var(--blue-deep)}
+.nav-item:hover,.nav-item.active:hover{background:var(--blue-tint)}
+.nav-item[data-nav="scan"]:hover{background:transparent}.nav-item[data-nav="scan"]:hover .nav-icon{background:var(--blue-deep)}
+.nav-item:focus-visible{outline:3px solid var(--danger);outline-offset:2px}
+@media(max-width:370px){.bottom-nav{margin-left:6px;margin-right:6px;padding-left:2px;padding-right:2px}.nav-item,.nav-item.active{font-size:10px}.nav-item[data-nav="scan"] .nav-icon{width:58px;height:58px}}
