@@ -1,0 +1,1 @@
+PASS: 24 slides at 1920x1080, 1366x768 and 390x844; no overflow, footer overlap or broken images; arrows, space, boundaries, hash, notes, screen zoom, fullscreen/escape and offline file rendering. Three-presenter structure preserved; rehearsal targets total 300 seconds. Zero runtime errors. PDF exported.

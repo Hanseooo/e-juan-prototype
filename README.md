@@ -34,7 +34,7 @@ No package install, account, API key, internet connection, or backend is require
 
 ### Competition pitch
 
-Open [the 13-slide E-JUAN pitch](pitch/index.html) directly, or visit `/pitch/` on your local server. It uses real prototype screenshots, the current branding, and an expanded story with three-presenter notes based on the supplied script. Arrow keys / Space navigate, **F** enters fullscreen, and **N** shows speaker notes. A [PDF version](pitch/E-JUAN-Pitch.pdf) and [presenting guide](pitch/README.md) are included. The original app remains independent of the presentation.
+Open [the 24-slide E-JUAN pitch](pitch/index.html) directly, or visit `/pitch/` on your local server. It uses real prototype screenshots, the current branding, and a problem-first story with separate need, opportunity and feasibility slides and three-presenter notes. Arrow keys / Space navigate, **F** enters fullscreen, and **N** shows speaker notes. A [PDF version](pitch/E-JUAN-Pitch.pdf) and [presenting guide](pitch/README.md) are included. The original app remains independent of the presentation.
 
 For a local HTTP preview, if Python is installed, run this from the project folder:
 

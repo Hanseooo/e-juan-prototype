@@ -179,3 +179,58 @@ kbd { font: inherit; font-size: 11px; margin-left: 8px; opacity: .55; }
   .controls, #notes, #screen-dialog, #announcement { display: none !important; }
   .screen-image { box-shadow: none; }
 }
+
+/* Expanded narrative: each screen or number gets its own composition. */
+.problem-opening header .section-tag { color: #dce8ff; font-size: 17px; }
+.problem-opening h1 { margin-top: 130px; font-size: 108px; line-height: 1.04; letter-spacing: -5px; }
+.problem-question { font-size: 46px; line-height: 1.2; letter-spacing: -1.2px; margin-top: 60px !important; font-weight: 600; }
+.problem-support { font-size: 29px; line-height: 1.5; max-width: 1040px; margin-top: 24px !important; color: #405270; }
+.problem-opening .problem-support { color: #dce8ff; }
+.problem-focus .problem-question { margin-top: 95px !important; color: var(--blue); font-size: 54px; }
+.statement-list { margin-top: 60px; max-width: 1280px; }
+.statement-list > div { padding: 28px 0; border-top: 1px solid var(--line); }
+.statement-list h3 { font-size: 36px; line-height: 1.2; letter-spacing: -1px; font-weight: 650; }
+.statement-list p { font-size: 28px; line-height: 1.5; color: #405270; margin-top: 16px; max-width: 1170px; }
+.opening > h1 { margin-top: 70px; max-width: 940px; }
+.opening > .lead { max-width: 950px; }
+.metric-content { display: grid; grid-template-columns: 690px 1fr; gap: 80px; margin-top: 94px; align-items: center; }
+.big-number { display: block; color: var(--blue); font-size: 136px; line-height: 1.05; font-weight: 650; letter-spacing: -7px; white-space: nowrap; }
+.metric-label { font-size: 29px; line-height: 1.4; margin-top: 25px !important; max-width: 650px; }
+.metric-explanation > p { font-size: 31px; line-height: 1.5; }
+.metric-explanation .metric-note { font-size: 24px; line-height: 1.5; color: #586983; border-top: 1px solid var(--line); padding-top: 24px; margin-top: 28px; }
+.budget-equation { display: grid; grid-template-columns: 1fr 40px 1fr 40px 1fr; gap: 24px; align-items: center; margin-top: 110px; }
+.budget-equation strong { display: block; font-size: 76px; line-height: 1.2; letter-spacing: -4px; color: var(--blue); white-space: nowrap; }
+.budget-equation p { font-size: 28px; margin-top: 26px; font-weight: 600; }
+.budget-equation span { display: block; font-size: 23px; line-height: 1.5; color: #586983; margin-top: 20px; }
+.budget-equation > b { font-size: 42px; font-weight: 400; color: #7c89a3; }
+.flat-journey { display: grid; grid-template-columns: repeat(5, 1fr); gap: 56px; margin-top: 110px; }
+.flat-journey > div { position: relative; text-align: center; }
+.flat-journey span { display: grid; place-items: center; width: 84px; height: 84px; margin: 0 auto 32px; border-radius: 50%; background: var(--blue); color: #fff; font-size: 28px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.flat-journey > div:first-child span { outline: 4px solid var(--yellow); outline-offset: 6px; }
+.flat-journey > div:not(:last-child)::after { content: ''; position: absolute; left: calc(50% + 58px); top: 41px; width: calc(100% + 56px - 116px); height: 3px; background: var(--blue); }
+.flat-journey > div:not(:last-child)::before { content: ''; position: absolute; left: calc(150% + 56px - 68px); top: 36px; width: 10px; height: 10px; border-top: 3px solid var(--blue); border-right: 3px solid var(--blue); transform: rotate(45deg); }
+.flat-journey h3 { font-size: 36px; letter-spacing: -1px; }
+.flat-journey p { font-size: 27px; line-height: 1.4; margin: 18px auto 0; max-width: 230px; color: #405270; }
+.journey-overview .key-statement { margin-top: 80px !important; font-size: 29px; }
+.single-walkthrough { display: grid; grid-template-columns: 440px 1fr; gap: 70px; align-items: center; margin-top: 38px; }
+.single-walkthrough > .screen-image { width: 232px; margin-left: 70px; box-shadow: 0 12px 24px #14213d15; }
+.single-walkthrough .statement-list { margin-top: 0; max-width: 870px; }
+.single-walkthrough .statement-list h3 { font-size: 36px; }
+.single-walkthrough .statement-list p { font-size: 28px; }
+.sponsor-focus .key-statement, .pilot-prerequisites .key-statement { margin-top: 38px !important; font-size: 28px; }
+.alternative-columns, .measure-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; margin-top: 88px; }
+.alternative-columns h3, .measure-grid h3 { font-size: 36px; letter-spacing: -1px; color: var(--blue); }
+.alternative-columns p, .measure-grid p { font-size: 28px; line-height: 1.5; color: #405270; margin-top: 26px; }
+.pilot-focus .key-statement { margin-top: 76px !important; font-size: 29px; }
+.closing > h2 { margin-top: 72px; }
+.closing > .partner-ask { margin-top: 52px; }
+#progress { gap: 2px; }
+#progress button { width: 18px; min-width: 18px; }
+#progress button::after { left: 6px; }
+@media (max-width: 1100px) { #progress { display: none; } }
+
+.red-accent::after { background: linear-gradient(90deg, #960000 0 50%, #f6be02 50%); }
+.red-accent .section-tag, .red-accent h2 em, .red-accent .big-number { color: #960000; }
+.yellow-accent::after { background: linear-gradient(90deg, #f6be02 0 50%, var(--blue) 50%); }
+.yellow-accent .key-statement { border-color: #f6be02; }
+.yellow-accent .flat-journey > div:first-child span { outline-color: #f6be02; }

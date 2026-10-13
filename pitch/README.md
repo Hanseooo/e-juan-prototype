@@ -1,64 +1,59 @@
-# E-JUAN 13-slide pitch
+# E-JUAN 24-slide pitch
 
-Open `pitch/index.html` directly in Chrome or Edge. No install, account, backend or internet connection is required. With the repository served over HTTP, open `/pitch/`.
+Open `pitch/index.html` directly in Chrome or Edge, or visit `/pitch/` when serving the repository. The presentation runs locally without a backend, account or internet connection.
 
-For a local preview from the repository root:
+## Story order
 
-```powershell
-rtk proxy python -m http.server 4173 --bind 127.0.0.1
-```
+| Slides | Purpose |
+| --- | --- |
+| 1-3 | Establish the resident's problem before introducing the product |
+| 4 | Introduce E-JUAN |
+| 5-6 | Show local population and national health-spending context |
+| 7 | Show the potential institutional prospect universe |
+| 8-10 | Explain the buyer, separate care spending, and software cost assumptions |
+| 11 | Summarize the five-step journey |
+| 12-18 | Explain one prototype screen at a time |
+| 19-20 | Explain sponsor accountability and existing alternatives |
+| 21-22 | Separate the current prototype from connected-pilot requirements |
+| 23-24 | Explain pilot measures and the partnership ask |
 
-Then visit `http://127.0.0.1:4173/pitch/`. The original app remains at `/`.
+Presenter 1 covers slides 1-7, Presenter 2 covers 8-20, and Presenter 3 covers 21-24. Speaker-note targets total five minutes. The original seven-slide script and supplied judge Q&A remain in the notes appendix.
 
 ## Present
 
-- Arrow keys or Space: advance or return. Home / End: first / last slide.
-- F or **Present**: fullscreen. Escape: exit fullscreen or close the open screen.
-- N or **Notes**: adapted 13-slide script, presenter, target duration, essential points and source context.
-- Click a phone to enlarge the real screen. Close it to resume slide navigation.
-- **Save PDF**: print all 13 slides. Use Save as PDF, the supplied page size, zero margins and background graphics. A ready-to-share `E-JUAN-Pitch.pdf` is included.
-- PNG exports and verification results are in `qa/`. `SPEAKER_NOTES.md` includes the adapted 13-slide notes plus the original seven-slide script and supplied judge Q&A.
+- Arrow keys or Space navigate. Home and End jump to the first and last slide.
+- F or **Present** enters fullscreen. Escape exits fullscreen or closes the open screen.
+- N or **Notes** opens rehearsal notes, sources and prototype boundaries. Anyone watching the same display can see an open notes panel.
+- Click a phone to enlarge the actual prototype capture.
+- **Save PDF** prints all 24 slides. Select Save as PDF, the supplied page size, zero margins and background graphics.
+- `E-JUAN-Pitch.pdf` is the regenerated shareable deck. `SPEAKER_NOTES.md` contains the revised script.
 
-The 1600 × 900 canvas scales proportionally to the window. Small portrait windows preserve the slides; use landscape or fullscreen for readable presenting. The controls sit outside the slide and disappear in fullscreen until hovered or focused. The notes panel is intended for private rehearsal and is visible to anyone watching the same screen.
+The 1600 × 900 canvas scales proportionally. Use landscape or fullscreen for readable presenting. The original app is independent of the presentation.
 
-## Content and source provenance
+## Evidence and limits
 
-The supplied `E-JUAN_Persuasive_Pitch_Deck_v2.pdf` and `E-JUAN_Persuasive_Pitch_Script_and_QA.pdf` (October 12, 2026) provide the original narrative and scripts. The presentation is now expanded to 13 slides at the user’s request, with explicit on-slide explanations of intake, care/funding paths, consent, medicine discovery, sponsor accountability and prototype readiness. Presenter 1 covers slides 1–2, Presenter 2 covers 3–10, and Presenter 3 covers 11–13. Adapted notes target five minutes total: 20, 30, 15, 25, 25, 25, 25, 20, 20, 25, 30, 25 and 15 seconds. The original script is retained in the notes appendix. No school, team email or presenter names were invented.
+The supplied original deck and script provide the concept narrative. The deck retains the app's native typography, Philippine flag colors, brand lockup and nine actual prototype screenshots. These assets show fictional providers, records, approvals, consultations and medicine listings.
 
-The deck imports `../styles.css` for the native typography, flag-color tokens and `.brand-lockup` / `.brand-symbol` component. It uses the actual `assets/MAINICON_EJUAN.svg` chatbot identity and native doctor portraits inside the captured app screens, rather than replacing them with new artwork. No external fonts, stock photos or generated images are used.
+Public figures were checked against PSA sources on 13 October 2026:
 
-Nine PNGs were captured from the original `index.html` running its unchanged `app.js`, at a 1440 × 1080 browser viewport with 2× pixel density. Each is a screenshot of the actual 400 × 850 `#device`, not a reconstructed UI:
+- Davao City population: 1,848,947 as of 1 July 2024, displayed as 1.85M.
+- Household out-of-pocket payment: 41.2% of Philippine current health expenditure in 2025. This is a national spending share.
+- Davao Region: 5 provinces + 6 cities + 43 municipalities = 54 potential institutional prospects.
 
-| Asset | Actual renderer and capture state |
-| --- | --- |
-| `ask.png` | `renderAsk()`: Ask Juan start |
-| `intake.png` | `renderIntake()`: cough concern, first intake question |
-| `match.png` | `renderRecommendation()`: answers Myself / 2–3 days / None of these, fictional general physician matches |
-| `check.png` | `renderCoverage()`: selected Dr. Andrea Santos, conditional LGU-approved sample; scrolled to show the explicit demo-state controls |
-| `review.png` | `renderReview()`: actual optional clinician-summary consent, unchecked by default |
-| `consult.png` | `renderConsult()`: simulated video consultation |
-| `locate.png` | `renderPharmacies()`: Paracetamol 500 mg, mixed fictional stock scenarios |
-| `prescription.png` | `renderPrescription()`: actual fictional Paracetamol 500 mg prescription wallet |
-| `home.png` | `renderHome()`: actual home after sample journey |
+Sources appear on their slides and in the speaker notes. These figures give context; they do not establish product demand, adoption or actual customers.
 
-The deck uses all nine images, including the actual consent-review and prescription-wallet screens on dedicated explanatory slides. All records, providers, sample approval, consultations and medicine listings are fictional. Ask Juan uses local demonstration rules, not a connected AI model. No real patient data was used.
+The ₱10,000 monthly license, ₱500 clinical fee and 100 monthly consultations are original modeling assumptions. Clinical spending is ₱50,000, total sponsor spending is ₱60,000, and illustrated E-JUAN revenue is only the ₱10,000 software license before costs. Effective software cost at that volume is ₱100 per visit. Prototype provider fees differ. Pricing, delivery costs, profitability and willingness to pay remain unvalidated.
 
-Connected public-first ranking, actual sponsor eligibility checks, visit allowances, budget controls, appointment requests, clinical handoff, sponsor records and pharmacy confirmation remain proposed. Slide 3 marks connected capabilities with an asterisk. Licensed clinicians retain diagnosis and prescribing authority. Sponsors are proposed to receive program records, not unrestricted medical histories.
+Ask Juan uses local demonstration rules. Public-first ranking, sponsor eligibility verification, appointments, clinical handoff, pharmacy confirmation and sponsor records remain proposed integrations. Clinicians retain diagnosis and prescribing authority. No signed partners, paying customers, live care or measured pilot outcomes are claimed.
 
-Slide 11's ₱500 clinical fee is a financial assumption from the supplied PDFs. The prototype's sample provider fees differ. The license assumptions are explicitly hypothetical: 100 × ₱500 = ₱50,000 clinical spending; + ₱10,000 software = ₱60,000 institution spending; ₱10,000 / 100 = ₱100 software per visit. E-JUAN's illustrated revenue is only ₱10,000, before costs.
+## Verify and regenerate
 
-Slide 2 cites PSA population and current health spending sources, and slide 12 cites PSA's 5 provinces + 6 cities + 43 municipalities. Slide 10 links the actual alternative services and acknowledges mWell's existing LGU offerings. These facts provide context, not evidence of demand, customers or operational E-JUAN outcomes.
-
-## Verify / regenerate exports
-
-The app has no package manifest, build or lint command. The verification script uses Playwright only as a development tool. It checks layouts at both requested projector sizes and at a small portrait size, controls, notes, image loading, fullscreen and file-based offline loading, then exports the PDF.
-
-If Playwright is available locally:
+The existing verification script uses Playwright as a development tool, checks every slide at two projector sizes and a small portrait size, exercises controls and offline loading, then exports the PDF.
 
 ```powershell
 rtk proxy node pitch/verify.mjs
 ```
 
-Otherwise set `PLAYWRIGHT_MODULE` to an installed Playwright module directory and `CHROME_PATH` to an installed Chrome executable, then run the same command. No dependency was added to this static app.
+If Playwright is not locally installed, set `PLAYWRIGHT_MODULE` to an installed `playwright` or `playwright-core` module and `CHROME_PATH` to the installed browser executable. No production dependency is needed.
 
-The original app's intake-to-matches, selected doctor, conditional funding, unchecked consent review, sample booking, simulated consultation, prescription, pharmacy and Home journey was exercised to create the captures. This is a local UI check, not a clinical integration test. No app source, clinical workflow, authentication or backend was changed.
+Slide PNGs and the latest check report are in `qa/`. The earlier deck and sources are retained in `../tmp/pitch-original/`.

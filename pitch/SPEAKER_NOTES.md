@@ -1,144 +1,183 @@
-# E-JUAN 13-slide speaker notes
+# E-JUAN 24-slide speaker notes
 
-Expanded to 13 slides so the on-slide story can be understood without narration. These notes adapt the supplied October 12, 2026 script to the expanded sequence. Three presenters remain; targets total 300 seconds. The original seven-slide script and Q&A follow as source material.
+Problem first, then the product introduction, need, opportunity and feasibility. Three presenters. Rehearsal targets total 300 seconds.
 
-## Slide 1 - Opening
+## Slide 1 - One health concern. Several decisions
 
-Presenter 1 | Target 20 seconds
+Presenter 1 | Target 10 seconds
 
-E-JUAN is a healthcare navigation and institutional care coordination concept for Davao City. A resident can move from a concern through care choices, funding, an appointment and prescribed medicine. Our aim is a clearer path for residents and accountable program records for sponsors. The screens are from our real interactive prototype, using fictional data.
-
-Emphasize:
-- One coordinated journey
-- Davao City first
-- Actual UI with fictional records
+One health concern can lead to several decisions. Before someone reaches care, they have to work out where to start. We are focusing on this navigation problem in Davao City.
 
 Sources and limits:
-Supplied pitch opening; actual renderAsk() screenshot.
+Original supplied problem narrative. Navigation friction is a hypothesis to validate.
 
-## Slide 2 - The problem and its context
+## Slide 2 - Finding care. Understanding coverage
 
-Presenter 1 | Target 30 seconds
+Presenter 1 | Target 10 seconds
 
-Davao City has about 1.85 million residents. Nationally, households paid 41.2 percent of current healthcare spending out of pocket in 2025. These numbers give context; they do not prove demand for E-JUAN. Public services and private telehealth apps already exist. Our hypothesis is that people can still face friction moving between the right provider, eligibility, appointments, and medicines. We want to test whether coordinating these decisions makes existing care easier to reach.
-
-Emphasize:
-- Four decisions can create navigation friction
-- Statistics provide context, not demand evidence
+Finding a provider is one decision. Understanding coverage is another. Public services already exist, but residents still need to understand which option fits and which program rules apply.
 
 Sources and limits:
-PSA 2024 Davao City census: https://rsso11.psa.gov.ph/system/files/11RSSO-DEL-SUR/Attachments/SR-2025-08PSO24-040.pdf
-PSA 2025 National Health Accounts: https://psa.gov.ph/statistics/pnha
-41.2% describes current health expenditure.
+Original problem and product script. No measured access-friction claim.
 
-## Slide 3 - The complete care journey
+## Slide 3 - A prescription leaves another decision
 
-Presenter 2 | Target 15 seconds
+Presenter 1 | Target 10 seconds
 
-The five steps are ask, match, check, consult and locate. All the screens here use fictional data. The interface demonstrates the journey, while actual public-first ranking, sponsorship verification, clinical handoff and stock confirmation remain proposed connected services. Residents with existing prescriptions can enter directly at medicine search.
-
-Emphasize:
-- Five connected steps
-- All screens use fictional data
-- Asterisks mark proposed connected capabilities
+The journey continues after the consultation. A prescription still leaves the resident looking for a pharmacy and checking whether the medicine is available. That is the final gap our proposed journey addresses.
 
 Sources and limits:
-Actual renderIntake(), renderRecommendation(), renderCoverage(), renderConsult() and renderPharmacies(). Supplied product-journey narrative.
+Original medicine-navigation narrative.
 
-## Slide 4 - Ask Juan: a clear starting point
+## Slide 4 - One concern. A clearer path to care
 
-Presenter 2 | Target 25 seconds
+Presenter 1 | Target 12 seconds
 
-Juan starts with a concern and asks three short questions: who needs care, how long it has lasted, and whether there are warning signs. The demo uses local rules to organize the concern and show a next step. Urgent warning signs lead to separate urgent-care guidance. Juan does not diagnose, prescribe or operate an emergency service.
-
-Emphasize:
-- Three short intake questions
-- Separate urgent-warning route
-- Navigation rather than clinical decision-making
+E-JUAN proposes a guided journey from a concern to care and prescribed medicine. Residents get a clearer next step. Institutions get a proposed way to coordinate approved visits and spending. The screen comes from our actual prototype, with fictional data.
 
 Sources and limits:
-Actual renderAsk(), renderIntake() and detectEmergency() in app.js. No connected AI model.
+Original opening and actual renderAsk() screenshot.
 
-## Slide 5 - Match care and check the funding path
+## Slide 5 - Davao City is our starting point
 
-Presenter 2 | Target 25 seconds
+Presenter 1 | Target 12 seconds
 
-The current interface shows fictional doctors and sample appointment slots. The proposed service would prioritize appropriate public or covered options. Standard booking can continue with a sample fee. Sponsored care requires approval of the beneficiary, provider, service, allowance and budget. YAKAP remains a separate primary-care pathway, and does not automatically approve LGU funding.
-
-Emphasize:
-- Keep standard, sponsored and YAKAP pathways separate
-- LGU approval is explicitly fictional
-- Public-first ranking remains proposed
+Davao City had 1,848,947 residents in the 2024 census. That gives us a clear local starting point. It does not mean all residents need or will use E-JUAN. Interviews and pilot participation must establish the actual audience.
 
 Sources and limits:
-Actual renderRecommendation() and renderCoverage(); DESIGN_NOTES.md. https://www.philhealth.gov.ph/yakap/
+https://rsso11.psa.gov.ph/content/2024-census-population-popcen-official-population-counts-city-davao
 
-## Slide 6 - Review and consent before consultation
+## Slide 6 - Households carry a substantial share
 
-Presenter 2 | Target 25 seconds
+Presenter 1 | Target 12 seconds
 
-The review screen brings together the provider, schedule, mode, care pathway and sample cost. Sharing the Ask Juan summary is optional and unchecked by default. In a connected service, the patient would consent to a short clinical handoff. Licensed clinicians would retain diagnosis and prescribing authority. This demo only creates local bookings and previews a simulated consultation.
-
-Emphasize:
-- Optional consent is unchecked by default
-- Only clinicians diagnose and prescribe
-- No real booking, transmission or charge
+Nationally, households paid 41.2 percent of current health spending out of pocket in 2025. This supports the importance of clear care and funding choices. It is a national spending measure, not the share of Davao residents paying or proof that our software reduces costs.
 
 Sources and limits:
-Actual renderReview(), confirm-booking action and renderConsult(). The screenshot review.png shows the real unchecked consent control.
+https://psa.gov.ph/sites/default/files/infographics/2025%20PNHA%20Infographics-signed.pdf
 
-## Slide 7 - From prescription to medicine discovery
+## Slide 7 - A regional prospect universe
 
-Presenter 2 | Target 25 seconds
+Presenter 1 | Target 12 seconds
 
-A resident can open a prescription and search for medicine, or start from an existing prescription. The prototype shows example Paracetamol results with sample prices, distances, stock states and update ages. The intended next step is confirmation by a pharmacy partner before travel. Current listings are fictional and cannot guarantee availability or support dispensing.
-
-Emphasize:
-- Existing prescriptions can start here
-- Stock state and freshness affect confidence
-- Real pharmacy confirmation is proposed
+Davao Region has 54 provincial, city and municipal LGU organizations. That is a possible prospect universe, not 54 customers. We would qualify each sponsor by its program need, budget, purchasing authority and reason to renew. Davao City is our initial focus.
 
 Sources and limits:
-Actual renderPrescription() and renderPharmacies(). Only Paracetamol 500 mg has example results. No pharmacy inventory integration.
+https://psa.gov.ph/classification/psgc/provinces/1100000000
 
-## Slide 8 - Sponsor accountability and role boundaries
+## Slide 8 - An institution-funded software license
 
-Presenter 2 | Target 20 seconds
+Presenter 2 | Target 14 seconds
 
-Sponsors would define which beneficiaries, providers and services qualify, then authorize visits within program limits. After a completed consultation, the proposed workflow would reconcile the booking and clinical payment against the budget. Sponsors need eligibility, booking and expenditure records. They do not need unrestricted medical histories. The current prototype has no sponsor dashboard or production access controls.
-
-Emphasize:
-- Approve funding before use
-- Reconcile completed services with spending
-- Sponsor access excludes unrestricted medical histories
+Our proposed buyer is an LGU or healthcare program sponsor. The original concept assumes a ten-thousand-peso monthly software license. Clinical payments remain separate. This is a proposed price to test with buyers, not a quotation, contract or established revenue.
 
 Sources and limits:
-Institutional coordination and data-role boundaries from supplied product script and business-model narrative. Proposed workflow only.
+Original concept financial assumptions.
 
-## Slide 9 - Prototype today and pilot requirements
+## Slide 9 - Care spending and software revenue
 
-Presenter 2 | Target 20 seconds
+Presenter 2 | Target 16 seconds
 
-The repository contains a working local interface with 23 screens. It demonstrates intake, filters, slots, funding options, consent, bookings and pharmacy states using fictional data. A connected pilot still needs approved partners, verified operations and secure records. We have no signed institutional customers or demonstrated clinical outcomes. The prototype supports testing the experience, not claiming deployment.
-
-Emphasize:
-- 23 actual prototype screens
-- Connected operations still need authorization
-- No proven deployment, customers or patient outcomes
+In an illustrative month, one hundred consultations at five hundred pesos cost fifty thousand pesos in clinical services. Add the ten-thousand-peso software license and the sponsor spends sixty thousand pesos. E-JUAN revenue is only the software license before costs.
 
 Sources and limits:
-Repository README.md, DESIGN_NOTES.md and app.js renderers. Supplied concept-stage claims baseline.
+Original assumptions. 100 × 500 = 50,000; 50,000 + 10,000 = 60,000. Prototype provider fees differ.
 
-## Slide 10 - Competition and differentiation
+## Slide 10 - Software cost per visit
 
-Presenter 2 | Target 25 seconds
+Presenter 2 | Target 12 seconds
 
-We are not claiming doctor booking or electronic prescriptions are new. NowServing and mWell already offer them—and mWell already serves LGUs. PhilHealth YAKAP and Davao City also provide public care. Our proposed value is a configurable coordination workflow that joins the right care options with sponsor rules, approved bookings, accountable spending, and local medicine availability. That combination must still beat the real alternatives: existing platforms and government in-house systems.
+At one hundred consultations, the assumed license adds one hundred pesos in software cost per visit. The commercial question is whether easier administration and reliable records justify that cost. We still need to validate delivery costs and profitability.
 
-Emphasize:
-- Existing platforms already deliver care
-- mWell already serves LGUs
-- Incremental coordination value must beat alternatives
+Sources and limits:
+Derived from original concept assumptions: 10,000 / 100 = 100.
+
+## Slide 11 - Five steps through care
+
+Presenter 2 | Target 10 seconds
+
+The five steps are ask, match, check, consult and locate. The prototype demonstrates the experience. Actual care, sponsorship checks and stock confirmation require connected partners. Someone who already has a prescription can begin at medicine search.
+
+Sources and limits:
+Original product journey; actual prototype.
+
+## Slide 12 - A clearer starting point
+
+Presenter 2 | Target 12 seconds
+
+Juan organizes the concern with three short questions: who needs care, duration and warning signs. This guides navigation. It does not diagnose. The current app uses local demonstration rules, with a separate urgent-care route for warning signs.
+
+Sources and limits:
+Actual renderIntake(); original script.
+
+## Slide 13 - Compare appropriate care options
+
+Presenter 2 | Target 12 seconds
+
+The resident can compare doctors and sample appointment slots. In the intended connected service, available public or covered care comes first, followed by relevant participating providers. That ranking still needs real service information and partners.
+
+Sources and limits:
+Actual renderRecommendation(); original product script.
+
+## Slide 14 - Review the funding pathway
+
+Presenter 2 | Target 16 seconds
+
+Funding follows its own rules. A sponsored consultation requires approval for the beneficiary, provider and service within visit and budget limits. YAKAP is a separate primary-care pathway. Membership alone does not approve an LGU-sponsored visit.
+
+Sources and limits:
+Actual renderCoverage(); original funding narrative. https://www.philhealth.gov.ph/yakap/
+
+## Slide 15 - Review details and choose consent
+
+Presenter 2 | Target 12 seconds
+
+Before confirming, the resident reviews appointment and funding details. Sharing the intake summary is optional. The actual checkbox begins unchecked. Current confirmation creates only a local sample booking, with no clinician contact or payment.
+
+Sources and limits:
+Actual renderReview(); consent unchecked by default.
+
+## Slide 16 - The clinician makes the clinical decisions
+
+Presenter 2 | Target 10 seconds
+
+In the proposed service, a licensed clinician reviews the concern, diagnoses and prescribes. E-JUAN supports the journey. Today this screen is a simulated consultation, with no clinician or live call.
+
+Sources and limits:
+Actual renderConsult(); original clinical boundaries.
+
+## Slide 17 - A prescription has a next step
+
+Presenter 2 | Target 10 seconds
+
+The prescription wallet demonstrates a possible handoff from a clinician-issued record to medicine search. This example is fictional and invalid for medical use. A resident with an existing prescription can enter here directly.
+
+Sources and limits:
+Actual renderPrescription(); original medicine navigation.
+
+## Slide 18 - Confirm medicine before travelling
+
+Presenter 2 | Target 12 seconds
+
+Medicine listings show sample prices, distances and stock confidence. A connected pharmacy partner would need to confirm availability before travel. A reported listing alone cannot guarantee current stock.
+
+Sources and limits:
+Actual renderPharmacies(); original pharmacy-confirmation proposal.
+
+## Slide 19 - Accountable sponsored visits
+
+Presenter 2 | Target 14 seconds
+
+Sponsors would authorize eligible services before the visit and reconcile completed consultations with payments afterward. They need program records for eligibility, booking and spending. Clinical information follows patient consent and authorized care-team access.
+
+Sources and limits:
+Original institutional workflow and role boundaries.
+
+## Slide 20 - A specific coordination focus
+
+Presenter 2 | Target 16 seconds
+
+Existing platforms already provide digital care, and mWell already offers LGU solutions. Public pathways also exist. Our proposed focus is joining care choices with sponsor rules, service records and local medicine confirmation. A buyer must see added value over these alternatives and in-house systems.
 
 Sources and limits:
 https://nowserving.ph/
@@ -146,49 +185,41 @@ https://www.mwell.com.ph/lgu-community
 https://www.philhealth.gov.ph/yakap/
 https://davaocity.gov.ph/departments/social-services/city-health-office/
 
-## Slide 11 - Institution-funded software model
+## Slide 21 - An experience we can test today
 
-Presenter 3 | Target 30 seconds
+Presenter 3 | Target 14 seconds
 
-Our proposed buyer is an LGU or healthcare program sponsor. In the illustrative month, 100 visits at 500 pesos cost 50,000 pesos in clinical services. A separate 10,000-peso monthly license brings sponsor spending to 60,000 pesos. E-JUAN revenue is only the 10,000-peso license before costs. At that volume, software adds 100 pesos per visit. All prices and willingness to pay remain unvalidated.
-
-Emphasize:
-- ₱60,000 is sponsor spending
-- ₱10,000 is illustrated software revenue
-- Clinical fees remain separate
-- All prices hypothetical
+Our local prototype has twenty-three screens covering the journey. It runs without a backend or account and lets us test usability now. That establishes an interface we can explore, not a deployed clinical service or proven outcomes.
 
 Sources and limits:
-Supplied pitch financial assumptions. 100 × 500 = 50,000; 50,000 + 10,000 = 60,000; 10,000 / 100 = 100. Actual prototype sample provider fees differ.
+Repository README.md and app.js renderers.
 
-## Slide 12 - Pilot evidence and responsible growth
+## Slide 22 - What a connected pilot requires
 
-Presenter 3 | Target 25 seconds
+Presenter 3 | Target 14 seconds
 
-We begin with synthetic workflow testing, then seek an authorized provider-led Davao City pilot with a sponsor and pharmacies. We would measure navigation success, staff effort, completed-visit reconciliation, stock reliability and willingness to renew. Davao Region has 54 provincial, city and municipal LGU organizations. They are possible prospects, not customers. Expansion depends on evidence and a feasible institutional purchase.
-
-Emphasize:
-- Simulate, validate, then replicate
-- Measure buyer value and renewal
-- 54 prospects does not mean 54 buyers
+A connected pilot still needs authorized care, sponsor and pharmacy partners. Operations must verify identity, eligibility and availability and protect the clinical handoff. Clinical, funding and data-protection arrangements come before live service.
 
 Sources and limits:
-PSA PSGC Davao Region: https://psa.gov.ph/classification/psgc/provinces/1100000000
-54 = 5 provinces + 6 cities + 43 municipalities. Proposed pilot subject to clinical and data-protection requirements.
+Original pilot conditions and product-status narrative.
 
-## Slide 13 - Closing and the specific ask
+## Slide 23 - A local test with clear measures
 
-Presenter 3 | Target 15 seconds
+Presenter 3 | Target 18 seconds
 
-We are seeking one willing healthcare provider, one authorized institutional sponsor, and pharmacy partners to validate a credible Davao City pilot. That local test must establish easier navigation and value worth paying for. One concern. A clearer path to care.
-
-Emphasize:
-- One provider, one authorized sponsor and pharmacies
-- One credible local test
-- No signed partnerships claimed
+We begin with synthetic usability tests, then seek an authorized local pilot. We would measure navigation success, staff effort, visit reconciliation and medicine confirmation. Expansion depends on measurable benefit and a qualified sponsor willing to pay and renew.
 
 Sources and limits:
-Supplied closing ask; actual renderHome() screenshot.
+Original pilot measures and growth gates.
+
+## Slide 24 - A clearer path to care
+
+Presenter 3 | Target 10 seconds
+
+We are seeking one willing healthcare provider, one authorized institutional sponsor and pharmacy partners to validate one credible local pilot. That test must show a clearer resident journey and value worth paying for. Thank you.
+
+Sources and limits:
+Original closing ask; actual renderHome() screenshot.
 
 ---
 
