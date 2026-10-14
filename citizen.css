@@ -1,0 +1,188 @@
+/* Citizen-only refinements keep staff clients and native Messages independent. */
+#screen .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+#screen .view{padding:16px 20px 25px}#screen .view-head{margin-bottom:20px;min-height:44px}#screen .view-head .view-title{font-size:17px;letter-spacing:-.4px}#screen .round-icon{height:44px;width:44px}#screen .button{min-height:50px;border-radius:14px;font-size:14px;line-height:1.45}#screen .page-h1{font-size:28px;line-height:1.2;letter-spacing:-1px;margin:12px 0 12px;overflow-wrap:anywhere}#screen .page-lead{font-size:14px;line-height:1.6;color:var(--muted);margin:0 0 20px}#screen .v6-card{padding:18px;margin-bottom:13px;border-color:#E0E7F1;box-shadow:0 2px 6px #14213d03}#screen .v6-card h2{font-size:17px}#screen .v6-card p{font-size:13px;line-height:1.65}#screen .v6-card .overline{font-size:9px}#screen .v6-card .tiny{font-size:11px}#screen .pill-badge{font-size:11px;padding:7px 9px;line-height:1.4;white-space:normal}#screen .notice{font-size:12px;line-height:1.6}#screen .v6-field{font-size:13px;gap:8px}#screen .v6-field input,#screen .v6-field select,#screen .v6-field textarea{font-size:15px;min-height:50px}#screen p,#screen strong,#screen dd{overflow-wrap:anywhere}.section-label h2{font-size:16px}.section-label button{min-height:36px;padding:6px;font-size:12px}.bottom-nav{height:78px}.nav-item,.nav-item.active{font-size:11px;height:57px;gap:3px}.nav-icon{width:40px;height:30px}.nav-item.active .nav-icon{background:#E7EFFF}.nav-item .nav-label{font-weight:550}
+.citizen-ui .location-select{background:white;border:1px solid var(--line);border-radius:13px;padding:0 10px;gap:7px;min-height:46px;margin-bottom:15px}.citizen-ui .location-select svg{width:17px;height:17px}.citizen-ui .location-select select{font-size:12px;font-weight:650;min-height:44px}.citizen-ui .home-header{margin-bottom:16px;gap:8px}.citizen-ui .home-header .location-select{margin:0;background:transparent;border:0;padding:0}.citizen-ui .home-header .avatar-mini{height:44px;width:44px;flex-shrink:0}.citizen-ui .home-header .home-emergency{padding:0;border:1px solid #F2D5DA;flex-shrink:0;display:grid;place-items:center;background:#FFF2F4;color:#B3192C;border-radius:50%}.citizen-ui .home-emergency svg{width:19px;height:19px}.citizen-ui .v6-greeting{font-size:14px;margin:0 0 6px;color:#586982}.citizen-ui.v6-home .home-title{font-size:32px;line-height:1.12;letter-spacing:-1.25px;margin:0 0 16px}.citizen-ui .v6-hero{padding:16px;grid-template-columns:minmax(0,1fr) 76px;gap:11px 0;border-radius:20px}.citizen-ui .v6-hero .overline{font-size:8px;letter-spacing:1px;margin-bottom:8px}.citizen-ui .v6-hero h2{font-size:19px;line-height:1.25;margin:0 0 6px;letter-spacing:-.5px;max-width:185px}.citizen-ui .v6-hero p:not(.overline){font-size:12px;line-height:1.5}.citizen-ui .v6-hero img{width:78px;height:85px;object-fit:contain;padding:5px;background:white;border-radius:50%;margin:0}.citizen-ui .v6-hero .button{min-height:50px;font-size:14px;margin:0}.citizen-ui.v6-home .section-label{margin:20px 0 10px}.citizen-ui .v6-shortcuts{gap:9px}.citizen-ui .v6-shortcut{padding:11px 12px;gap:5px;min-height:96px;border-radius:16px;box-shadow:0 2px 5px #14213d02}.citizen-ui .v6-shortcut .v6-icon{width:31px;height:31px;border-radius:10px}.citizen-ui .v6-shortcut svg{height:18px;width:18px}.citizen-ui .v6-shortcut strong{font-size:12px;line-height:1.4;letter-spacing:-.2px}.citizen-ui .v6-shortcut>span:last-child{font-size:11px;line-height:1.35}.citizen-ui .urgent-shortcut{border-color:#EBD6DA;background:#FFFBFC}.center-preview{display:flex;gap:11px;align-items:center;padding:16px;width:100%;border:1px solid var(--line);border-radius:16px;background:white;color:var(--ink);text-align:left;min-height:100px;margin:0 0 12px}.center-preview .grow{min-width:0}.center-preview strong{font-size:14px;line-height:1.45;display:block}.center-preview small{font-size:11px;color:var(--muted);display:block;margin-top:5px;line-height:1.45}.center-preview>svg{width:15px;height:15px;color:var(--blue)}.demo-details{font-size:12px;color:var(--muted);margin:20px 0 0;border-top:1px solid var(--line);padding-top:7px}.demo-details summary{cursor:pointer;color:#586D8E;min-height:42px;display:flex;align-items:center;gap:7px;line-height:1.5}.demo-details summary::before{content:'+';font-weight:750;color:var(--blue);font-size:16px}.demo-details[open] summary::before{content:'−'}.demo-details p{font-size:12px;line-height:1.6;margin:8px 0 5px}.empty-state{padding:24px 16px;background:#F0F5FD;border-color:#DCE7F7}.empty-state-icon{display:inline-grid;place-items:center;height:44px;width:44px;border-radius:14px;background:white;color:var(--blue)}.empty-state h2{font-size:16px;letter-spacing:-.3px;margin:12px 0 8px}.empty-state p{font-size:13px;line-height:1.6;max-width:260px;margin:auto}
+/* Ask Juan and intake prioritize the next control over large decorations. */
+.v6-ask.citizen-ui{padding:12px 20px 18px;min-height:100%;gap:0}.v6-ask.citizen-ui .ask-head{padding:0;margin-bottom:16px;min-height:44px;gap:8px}.v6-ask.citizen-ui .ask-head strong{font-size:16px}.v6-ask.citizen-ui .ask-head .row{gap:8px}.citizen-ui .emergency-link{font-size:11px;min-height:44px;padding:10px}.v6-ask.citizen-ui .ask-intro{margin:0;padding:0;gap:0}.v6-ask.citizen-ui .ask-hero{padding:17px 14px 17px 18px;grid-template-columns:minmax(0,1fr) 78px;border-radius:19px;box-shadow:none;border-bottom-width:3px;min-height:141px}.v6-ask.citizen-ui .ask-hero h1{font-size:24px;line-height:1.2;margin:0 0 9px;letter-spacing:-.65px}.v6-ask.citizen-ui .ask-hero p{font-size:12px;line-height:1.55}.v6-ask.citizen-ui .ask-mascot-stage{height:94px;width:78px;margin:0}.v6-ask.citizen-ui .ask-mascot-stage::before{top:0;left:0;width:78px;height:94px}.v6-ask.citizen-ui .ask-hero-mascot{width:82px;height:96px;margin:0;object-fit:contain}.v6-ask.citizen-ui .starter-heading{font-size:12px;font-weight:650;color:var(--muted);margin:18px 0 10px}.v6-ask.citizen-ui .starter-grid{gap:9px}.v6-ask.citizen-ui .starter-grid button{display:flex;align-items:center;gap:8px;min-height:68px;padding:11px 10px;border-radius:14px;background:white;border-color:var(--line);font-size:12px}.v6-ask.citizen-ui .starter-grid .starter-icon{width:29px;height:29px;border-radius:9px;flex-shrink:0}.v6-ask.citizen-ui .starter-grid .starter-icon svg{width:18px;height:18px}.v6-ask.citizen-ui .starter-grid button>span:nth-child(2){font-size:12px;line-height:1.4;flex:1;min-width:0}.v6-ask.citizen-ui .starter-grid button>svg{display:none}.v6-ask.citizen-ui .ask-composer{margin:20px 0 0;padding:0;background:none;position:static;width:100%}.v6-ask.citizen-ui .composer-card{display:flex;align-items:center;gap:9px;padding:12px;border-radius:17px;background:white;box-shadow:0 4px 14px #0038a807;border-color:#C4D5F3}.v6-ask.citizen-ui .composer-card textarea{min-height:58px;height:58px;max-height:none;font-size:14px;line-height:1.55;flex:1;min-width:0;width:auto;padding:2px 0;resize:none}.ask-send{display:grid;place-items:center;width:44px;height:44px;flex-shrink:0;border:0;border-radius:13px;background:var(--blue);color:white}.ask-send svg{width:20px;height:20px}.ask-demo-options{margin-top:9px;color:var(--muted);font-size:11px}.ask-demo-options summary{min-height:38px;display:flex;align-items:center;cursor:pointer;gap:6px}.ask-demo-options summary::before{content:'+';font-size:15px;color:var(--blue)}.ask-demo-options[open] summary::before{content:'−'}.ask-demo-options>div{display:flex;flex-direction:column;gap:8px}.v6-ask.citizen-ui .ask-disclosure{margin-top:8px;font-size:10px}.v6-ask.citizen-ui .ask-retry{margin:20px 0;gap:12px}.ask-retry .retry-mascot{width:85px}.ask-retry h1{font-size:26px}.ask-retry p{font-size:14px;line-height:1.6}.intake-welcome{display:flex;align-items:flex-start;gap:12px;margin:18px 0 24px}.intake-welcome h1{font-size:25px;letter-spacing:-.7px;line-height:1.25;margin:0 0 8px}.intake-welcome p{font-size:14px;color:var(--muted);line-height:1.6;margin:0}.citizen-label{display:block;font-size:14px;font-weight:650;margin-bottom:10px}.citizen-ui .concern-input{font-size:15px;line-height:1.6;border-radius:16px;min-height:142px;resize:vertical;padding:16px;width:100%;border:1px solid #D4DFEE;background:white;color:var(--ink)}.input-hint{font-size:12px;color:var(--muted);line-height:1.55;margin:9px 0 19px}.example-heading{font-size:13px;font-weight:650;margin:0 0 11px;color:var(--muted)}.symptom-examples{display:flex;gap:8px;flex-wrap:wrap}.symptom-examples button{min-height:44px;border:1px solid #D5E1F3;background:white;color:var(--blue);border-radius:12px;padding:10px 15px;font-size:13px;font-weight:600}.intake-safety{display:flex;align-items:center;gap:8px;padding:13px;background:#EDF3FD;border-radius:13px;margin:20px 0 15px;color:#526C95}.intake-safety svg{width:18px;height:18px}.intake-safety p{font-size:12px;line-height:1.55;margin:0}.describe-emergency{display:flex;margin:15px auto 0;justify-content:center;background:none!important}.citizen-ui.intake-view .view-head{margin-bottom:20px}.intake-context{display:flex;align-items:center;gap:11px;margin-bottom:14px}.intake-context img{width:31px;height:31px}.intake-context p{font-size:13px;line-height:1.6;color:var(--muted);margin:0}.intake-context strong{font-weight:600;color:var(--ink)}.intake-concern{border:1px solid var(--line);border-radius:12px;background:white;margin-bottom:16px;padding:0 12px;color:var(--muted);font-size:12px}.intake-concern summary{min-height:42px;display:flex;align-items:center;cursor:pointer;gap:7px}.intake-concern summary::before{content:'+';font-size:15px;color:var(--blue)}.intake-concern[open] summary::before{content:'−'}.intake-concern p{font-size:13px;line-height:1.65;margin:2px 0 13px;color:var(--ink)}.citizen-ui.intake-view .question-card{margin:0;padding:20px 18px;box-shadow:0 3px 12px #0038a804;width:100%}.intake-progress{display:flex;gap:5px;margin:0 0 20px}.intake-progress span{height:4px;background:#E5EBF5;flex:1;border-radius:5px}.intake-progress .active{background:var(--blue)}.citizen-ui .question-card h1{font-size:23px;line-height:1.25;letter-spacing:-.7px;margin:0 0 10px}.citizen-ui .question-card>p{font-size:13px;line-height:1.6;margin:0 0 18px}.citizen-ui .answer-option{min-height:54px;padding:13px 14px;font-size:14px;border-radius:12px}.citizen-ui .answer-option.selected{border-color:var(--blue);background:var(--blue-tint);color:var(--blue)}.intake-emergency{margin-top:16px;width:100%;justify-content:center}.report-saved{display:flex;align-items:center;gap:8px;background:var(--green-bg);color:var(--green);font-size:12px;padding:12px 14px;border-radius:12px;margin-bottom:16px}.report-saved svg{width:17px;height:17px}.guidance-card{border-left-width:3px}.guidance-card h1{font-size:25px;line-height:1.25;letter-spacing:-.6px;margin:16px 0 14px}.guidance-card .button{margin-top:15px}.reported-concern{font-size:14px!important;color:var(--ink)!important}.v6-details{font-size:13px}.v6-details dt{max-width:47%;text-transform:none}.v6-details dd{max-width:53%;line-height:1.5}.v6-details>div{padding:10px 0}.guidance-view .text-button{display:flex;align-items:center;gap:7px;min-height:44px;margin-top:10px;font-size:13px}
+/* Search pages share predictable controls and readable result cards. */
+.citizen-ui .directory-search{min-height:50px;padding:0 10px;margin:0 0 16px;border-radius:14px}.citizen-ui .directory-search input{min-height:48px;font-size:14px;min-width:0}.citizen-ui .directory-search>svg{width:19px}.citizen-ui .service-filter{background:white;border:1px solid var(--line);border-radius:13px;padding:8px 12px;display:flex;flex-direction:row;align-items:center;gap:12px;margin-bottom:16px}.citizen-ui .service-filter select{border:0;min-height:36px;background:none;padding:5px 0;flex:1;min-width:0;width:auto;font-size:13px}.results-toolbar{gap:10px;margin:0 0 17px}.result-summary{font-size:13px;font-weight:650;color:var(--muted)}.citizen-ui .toggle-pair{border-radius:12px;flex-shrink:0}.citizen-ui .toggle-pair button{min-height:44px;padding:8px 10px;font-size:12px;gap:5px}.facility-card .row{gap:11px}.facility-card .v6-icon{width:36px;height:36px;border-radius:12px}.facility-card h2{font-size:16px!important;letter-spacing:-.3px;line-height:1.4}.facility-card .row p:not(.overline){font-size:12px!important;margin:6px 0 0}.facility-hours{display:flex;align-items:flex-start;gap:8px;margin:13px 0 8px;font-size:13px;line-height:1.55;color:var(--ink2)}.facility-hours svg{width:16px;height:16px;color:var(--muted);margin-top:2px}.facility-card .chips-static{gap:5px;margin:10px 0}.facility-card .chips-static span{font-size:10px;line-height:1.45;padding:5px 8px;background:#F1F5FB}.facility-card .data-stamp{font-size:11px!important;color:var(--muted);line-height:1.55!important;margin:10px 0 15px!important}.prescription-entry{display:flex;align-items:center;gap:10px;min-height:79px;width:100%;padding:13px;border:1px solid #CEDCF4;border-radius:15px;background:#EFF4FF;text-align:left;color:var(--ink)}.prescription-entry>span:nth-child(2){flex:1;min-width:0}.prescription-entry strong{font-size:14px;display:block;line-height:1.4}.prescription-entry small{font-size:11px;color:var(--muted);display:block;line-height:1.5;margin-top:4px}.prescription-entry>svg{width:16px;color:var(--blue)}.citizen-ui .medicine-card{padding:17px 15px;gap:11px}.citizen-ui .medicine-card .v6-icon{width:36px;height:36px;border-radius:12px}.citizen-ui .medicine-card .grow{min-width:0}.citizen-ui .medicine-card h2{font-size:18px!important}.citizen-ui .medicine-card p{margin:5px 0!important}.citizen-ui .medicine-card .tiny{font-size:11px!important}.citizen-ui .medicine-card .button{margin-top:13px;font-size:13px!important}.medicine-reminder{display:flex;align-items:flex-start;gap:8px;background:#EDF3FD;border-radius:13px;padding:13px;margin-top:16px;color:#586E92}.medicine-reminder svg{width:17px;margin-top:2px}.medicine-reminder p{font-size:12px;line-height:1.6;margin:0}.stock-card .pill-badge{margin:6px 0}.stock-card .button{margin-top:13px}.stock-card .tiny{color:#5C6F88}.profile-view .view-head{margin-bottom:16px}.citizen-profile-card{display:flex;align-items:center;gap:14px;background:var(--blue);border-radius:20px;padding:22px 18px;margin-bottom:25px;color:white}.profile-avatar{display:grid;place-items:center;width:54px;height:54px;border-radius:18px;background:#ffffff1a;flex-shrink:0}.profile-avatar svg{width:28px;height:28px}.citizen-profile-card .overline{color:#FCD116;font-size:9px;letter-spacing:1px;margin:0 0 8px}.citizen-profile-card h1{font-size:24px;letter-spacing:-.65px;margin:0 0 7px;line-height:1.3}.citizen-profile-card p:last-child{font-size:12px;line-height:1.55;margin:0;color:#E6EDFF}.profile-location-label{font-size:12px;font-weight:650;color:var(--muted);display:block;margin-bottom:8px}.profile-actions{display:grid;gap:11px;margin:20px 0}.profile-actions button{display:flex;gap:11px;align-items:center;min-height:84px;width:100%;border:1px solid var(--line);border-radius:16px;background:white;padding:15px;text-align:left;color:var(--ink)}.profile-actions button>span:nth-child(2){flex:1;min-width:0}.profile-actions strong{display:block;font-size:14px;line-height:1.4}.profile-actions small{display:block;font-size:12px;line-height:1.5;color:var(--muted);margin-top:6px}.profile-actions button>svg{width:16px;color:var(--blue)}.privacy-card{display:flex;gap:11px;margin-top:21px}.privacy-card h2{font-size:15px!important}.privacy-card p{font-size:12px!important;line-height:1.6!important}.privacy-card .v6-icon{height:35px;width:35px}.profile-brand{font-size:11px;color:var(--muted);text-align:center;margin:24px 0 0}.report-link{gap:8px}.report-link strong{font-size:15px;line-height:1.5}.report-link>span{font-size:12px;line-height:1.5}.report-link .report-label{font-size:9px;letter-spacing:1px;color:var(--blue);font-weight:650}.report-link .tiny{font-size:11px;color:var(--muted)}.citizen-ui .center-map .map-pin{width:44px;height:44px}.emergency-view .emergency-card h2{font-size:16px}.emergency-view .button.danger{min-height:56px}
+@media(max-width:350px){#screen .view{padding-left:16px;padding-right:16px}.citizen-ui.v6-home .home-title{font-size:29px}.citizen-ui .v6-hero{grid-template-columns:minmax(0,1fr) 66px;padding:14px}.citizen-ui .v6-hero h2{font-size:17px;max-width:165px}.citizen-ui .v6-hero img{width:66px;height:79px}.citizen-ui .v6-hero p:not(.overline){font-size:11px}.citizen-ui .v6-shortcut{padding:10px;min-height:94px}.citizen-ui .v6-shortcut strong{font-size:11px}.v6-ask.citizen-ui{padding-left:16px;padding-right:16px}.v6-ask.citizen-ui .ask-hero{grid-template-columns:minmax(0,1fr) 63px;padding:16px 12px}.v6-ask.citizen-ui .ask-hero h1{font-size:22px}.v6-ask.citizen-ui .ask-hero p{font-size:11px}.v6-ask.citizen-ui .ask-mascot-stage{width:63px;height:80px}.v6-ask.citizen-ui .ask-mascot-stage::before{width:63px;height:80px}.v6-ask.citizen-ui .ask-hero-mascot{width:66px;height:82px}.v6-ask.citizen-ui .starter-grid button{padding:10px 9px;min-height:71px;gap:6px}.v6-ask.citizen-ui .starter-grid .starter-icon{width:24px;height:26px}.v6-ask.citizen-ui .starter-grid button>span:nth-child(2){font-size:11px}.citizen-ui .question-card h1{font-size:21px}.citizen-ui .service-filter select{font-size:12px}.prescription-entry small{font-size:10px}.citizen-profile-card{padding:19px 15px}.citizen-profile-card h1{font-size:22px}.citizen-profile-card p:last-child{font-size:11px}.nav-item,.nav-item.active{font-size:10px}}
+#screen .section-label button{min-height:44px}#screen .center-search-view .view-head{margin-bottom:16px}#screen .center-search-view .page-h1{margin-top:8px;margin-bottom:9px}#screen .center-search-view .page-lead{margin-bottom:14px}#screen .citizen-ui .service-filter{padding:4px 12px;margin-bottom:10px}#screen .citizen-ui .service-filter select{min-height:44px}#screen .citizen-ui .directory-search{border:1px solid #D5E0F0}#screen .citizen-ui .toggle-pair{border:1px solid #DCE5F2;background:#EDF3FC;padding:3px;box-shadow:none}#screen .citizen-ui .toggle-pair button{border-radius:9px}#screen .center-search-view .results-toolbar{margin-bottom:13px}
+.intake-head-controls{display:flex;align-items:center;gap:7px}.intake-head-controls .emergency-link{padding:0;display:grid;place-items:center;border-color:#F0D5DC}.intake-head-controls .emergency-link svg{width:18px;height:18px}
+
+/* Plain language, visible actions, and readable phone controls. */
+#screen .citizen-ui .home-header .home-emergency{display:flex;gap:6px;width:auto;padding:0 11px;border-radius:13px;font-size:12px;font-weight:700;min-height:44px}
+#screen .citizen-ui .home-header .home-emergency svg{width:16px;height:16px}
+#screen .citizen-ui .home-title{font-size:30px;margin-bottom:14px}
+#screen .citizen-ui .v6-hero h2{font-size:21px;max-width:none}
+#screen .citizen-ui .v6-hero p:not(.overline){font-size:13px}
+#screen .citizen-ui .v6-hero .overline{font-size:10px;letter-spacing:.9px}
+#screen .citizen-ui .v6-shortcut{min-height:108px;gap:7px;padding:12px}
+#screen .citizen-ui .v6-shortcut strong{font-size:14px;line-height:1.3;letter-spacing:-.3px}
+#screen .citizen-ui .v6-shortcut>span:last-child{font-size:12px;line-height:1.35}
+.shortcut-heading{display:flex;justify-content:space-between;align-items:center;width:100%}
+.shortcut-heading>svg{width:15px!important;height:15px!important;color:#617696}
+#screen .citizen-ui .v6-shortcut .v6-icon{width:29px;height:29px}
+#screen .citizen-ui .v6-hero .button{font-size:15px}
+#screen .citizen-ui .page-lead{font-size:15px}
+#screen .citizen-ui .v6-field input,#screen .citizen-ui .v6-field select,#screen .citizen-ui .v6-field textarea{font-size:16px}
+#screen .citizen-ui .sample-note{font-size:12px;line-height:1.5;color:#536B8F;background:#EAF1FD;border-radius:10px;padding:9px 11px;margin:0 0 15px}
+#screen .citizen-ui .search-label{font-size:13px;margin-bottom:8px}
+#screen .citizen-ui .directory-search input{font-size:16px}
+#screen .citizen-ui .center-search-view .page-lead{margin-bottom:12px}
+#screen .citizen-ui .facility-card .data-stamp{margin-bottom:10px!important}
+#screen .citizen-ui .facility-card .chips-static{margin-bottom:5px}
+#screen .v6-ask.citizen-ui .ask-hero{min-height:120px;padding:14px 16px}
+#screen .v6-ask.citizen-ui .ask-hero h1{font-size:25px}
+#screen .v6-ask.citizen-ui .ask-hero p{font-size:14px;line-height:1.5}
+#screen .v6-ask.citizen-ui{height:100%;min-height:0;padding-bottom:0;overflow:hidden}
+#screen .v6-ask.citizen-ui .ask-head{flex-shrink:0}
+.ask-content{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;scrollbar-width:none;padding-bottom:12px}
+#screen .v6-ask.citizen-ui .ask-composer{flex-shrink:0;position:relative;z-index:2;margin:0 -20px;width:calc(100% + 40px);padding:12px 20px 8px;background:var(--bg);border-top:1px solid #E0E7F2;box-shadow:0 -8px 18px #24466E05}
+#screen .v6-ask.citizen-ui .composer-card{padding:12px}
+#screen .v6-ask.citizen-ui .composer-card textarea{font-size:16px;min-height:64px;height:64px}
+#screen .v6-ask.citizen-ui .ask-send{display:flex;align-items:center;justify-content:center;gap:5px;width:66px;min-height:48px;height:48px;font-size:13px;font-weight:700}
+#screen .v6-ask.citizen-ui .ask-send svg{width:14px;height:14px}
+#screen .v6-ask.citizen-ui .ask-disclosure{font-size:12px;line-height:1.5;margin-top:8px;text-align:left}
+#screen .v6-ask.citizen-ui .starter-heading{font-size:14px;color:var(--ink);margin:18px 0 10px}
+#screen .v6-ask.citizen-ui .starter-grid button>span:nth-child(2){font-size:14px}
+#screen .v6-ask.citizen-ui .starter-grid button{min-height:72px}
+#screen .citizen-ui .question-instruction{font-size:12px;font-weight:650;margin:0 0 12px}
+#screen .citizen-ui.intake-view .question-card h1,#screen .citizen-ui.intake-view .question-card>p{color:#FFFFFF}
+#screen .citizen-ui.intake-view .intake-progress span{background:#FFFFFF66}
+#screen .citizen-ui.intake-view .intake-progress .active{background:var(--yellow)}
+#screen .citizen-ui .intake-progress{margin-bottom:18px}
+#screen .citizen-ui .answer-option{font-size:16px;min-height:56px}
+#screen .citizen-ui .concern-input{font-size:16px}
+.answers-details>summary{font-size:16px;font-weight:700;cursor:pointer;min-height:44px;padding:10px 0;line-height:1.5}
+.answers-details[open]>summary{margin-bottom:12px}
+.listing-details{font-size:13px;margin-top:9px;color:#536B8F}.listing-details>summary{cursor:pointer;min-height:44px;display:flex;align-items:center;gap:6px}.listing-details>summary::before{content:'+';color:var(--blue);font-size:17px}.listing-details[open]>summary::before{content:'−'}
+#screen .citizen-ui .guidance-card>p:not(.notice){font-size:16px;line-height:1.6;color:var(--ink)}
+#screen .citizen-ui .guidance-card .notice{font-size:12px;line-height:1.6}
+.bottom-nav .nav-item .nav-label{font-size:12px}
+/* Keep center search controls together and let results carry the visual weight. */
+#screen .center-search-view .page-h1{font-size:26px;margin:0 0 7px}
+#screen .center-search-view .page-lead{font-size:13px;margin-bottom:16px}
+.center-search-panel{background:white;border:1px solid #DFE7F3;border-radius:18px;padding:14px;margin-bottom:14px}
+#screen .center-search-panel .search-label{font-size:13px}
+#screen .center-search-panel .directory-search{margin:0 0 13px;background:#F8FAFF;box-shadow:none;border:1px solid #C5D6F1;min-height:50px}
+#screen .center-search-panel .directory-search:focus-within{border-color:var(--blue);outline:2px solid #D5E3FF;outline-offset:1px}
+#screen .center-search-panel .directory-search input{font-size:15px}
+.center-filter-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
+.center-area-filter{min-width:0}
+.filter-caption,.center-filter-row .service-filter>span{display:block;font-size:11px;font-weight:650;color:#5B7292;margin-bottom:7px;line-height:1.4}
+#screen .center-filter-row .location-select{background:#F1F5FD;border:1px solid #E0E8F5;margin:0;padding:0 9px;min-height:46px;gap:5px;border-radius:11px}
+#screen .center-filter-row .location-select svg{width:15px;height:15px}
+#screen .center-filter-row .location-select select{font-size:12px;min-width:0}
+#screen .center-filter-row .service-filter{display:block;background:transparent;border:0;border-radius:0;margin:0;padding:0;min-width:0}
+#screen .center-filter-row .service-filter select{display:block;width:100%;min-height:46px;background:#F1F5FD;border:1px solid #E0E8F5;border-radius:11px;padding:0 9px;font-size:12px;color:var(--blue);font-weight:650;text-overflow:ellipsis}
+.center-search-note{display:flex;align-items:center;gap:5px;font-size:10px;line-height:1.5;color:#657995;margin:13px 0 0}
+.center-search-note svg{width:13px;height:13px}
+#screen .center-search-view .results-toolbar{margin-bottom:12px}
+#screen .center-search-view .facility-card{padding:15px}
+.facility-thumbnail{display:block;width:70px;height:65px;flex-shrink:0;border-radius:13px;overflow:hidden;background:#EAF2FF}
+.facility-thumbnail img{display:block;width:100%;height:100%;object-fit:cover}
+#screen .center-search-view .facility-card .row{align-items:center;gap:11px}
+#screen .center-search-view .facility-card h2{font-size:16px!important;line-height:1.3}
+#screen .center-search-view .facility-card .facility-hours{font-size:12px;margin:13px 0 10px}
+.result-services{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:13px}
+.result-services>span{display:flex;align-items:center;gap:4px;background:#EEF4FF;color:#315EAB;border-radius:8px;font-size:10px;line-height:1.5;padding:5px 7px}
+.result-services svg{width:13px;height:13px}
+#screen .center-search-view .facility-card>.button{background:var(--blue);color:white;min-height:48px;font-size:14px}
+#screen .center-search-view .listing-details{margin-top:5px}
+@media(max-width:350px){.center-search-panel{padding:12px}.center-filter-row{gap:8px}.facility-thumbnail{width:58px;height:62px}.center-search-note{font-size:10px}#screen .center-search-view .facility-card{padding:13px}#screen .center-search-view .facility-card h2{font-size:15px!important}}
+/* Center and medicine details use illustrations and short visual groups. */
+.center-visual-hero{background:white;border:1px solid #DCE6F4;border-radius:21px;overflow:hidden;margin-bottom:14px}
+.clinic-scene{position:relative;background:#EAF2FF}
+.clinic-scene>img{display:block;width:100%;height:145px;object-fit:cover}
+.scene-label{position:absolute;top:12px;left:12px;display:flex;align-items:center;gap:5px;border:1px solid #D9E5F7;background:#FFFFFFE8;color:#315887;border-radius:20px;padding:5px 8px;font-size:10px;font-weight:650}
+.scene-label svg{width:12px;height:12px}
+.center-hero-copy{padding:16px}
+.center-hero-copy .overline{font-size:9px;color:#607999;letter-spacing:.8px;margin:0 0 8px}
+.center-hero-copy h1{font-size:23px;line-height:1.2;letter-spacing:-.7px;margin:0 0 10px;color:var(--ink)}
+.center-address{display:flex;align-items:flex-start;gap:7px;font-size:12px;color:#5C708B;line-height:1.5;margin:0}
+.center-address svg{width:15px;height:15px;margin-top:2px;color:var(--blue)}
+.center-quick-facts{display:grid;grid-template-columns:1.2fr 1fr;gap:10px;margin:0 0 22px}
+.center-quick-facts article{display:flex;gap:9px;align-items:flex-start;background:#EEF3FD;border:1px solid #E0E8F6;padding:12px 10px;border-radius:14px;min-width:0}
+.center-quick-facts article>svg{width:18px;height:18px;color:var(--blue);margin-top:2px}
+.center-quick-facts article>span{font-size:11px;color:#607392;line-height:1.4;min-width:0}
+.center-quick-facts strong{display:block;color:#15355E;font-size:12px;font-weight:650;line-height:1.5;margin-top:5px}
+.center-services{margin-bottom:18px}
+.center-services h2{font-size:16px;letter-spacing:-.3px;margin:0 0 12px}
+.service-tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.service-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:10px;min-height:96px;border:1px solid #DCE7FA;border-radius:15px;padding:12px 7px;background:#EDF3FF;color:#1647A2}
+.service-tile>svg{width:26px;height:26px}
+.service-tile>span{font-size:12px;font-weight:650;line-height:1.4}
+.service-tone-1{background:#FFF0F2;color:#A72744;border-color:#F3DDE3}
+.service-tone-2{background:#FFF8DF;color:#7E5C09;border-color:#EFE5BA}
+.center-visit-info{background:white;border:1px solid #DFE7F2;border-radius:16px;margin:0 0 22px;overflow:hidden}
+.center-visit-info>summary{list-style:none;display:flex;align-items:center;gap:10px;min-height:78px;padding:14px;cursor:pointer}
+.center-visit-info>summary::-webkit-details-marker{display:none}
+.center-visit-info>summary>span:nth-child(2){flex:1;min-width:0}
+.center-visit-info strong{display:block;font-size:14px;line-height:1.4}
+.center-visit-info small{display:block;font-size:11px;color:#637795;line-height:1.5;margin-top:4px}
+.center-visit-info>summary>svg{width:16px;height:16px;color:var(--blue)}
+.center-visit-info[open]>summary>svg{transform:rotate(180deg)}
+.visit-info-body{padding:0 16px 16px;border-top:1px solid #EDF1F8}
+.visit-info-body p{font-size:13px;line-height:1.6;color:#5A6F8A}
+.visit-info-body p:first-child{display:flex;align-items:center;gap:8px;color:var(--ink)}
+.visit-info-body p>svg{width:17px;height:17px;color:var(--blue)}
+.medicine-section-heading{display:flex;align-items:center;gap:10px;margin:23px 0 14px}
+.medicine-section-heading>div{min-width:0}
+.medicine-section-heading h2{font-size:16px;margin:0;line-height:1.35;letter-spacing:-.3px}
+.medicine-section-heading p{font-size:11px;line-height:1.5;color:#617795;margin:5px 0 0}
+.medicine-art{width:65px;height:75px;display:grid;place-items:center;flex-shrink:0;background:#EDF3FF;border-radius:16px}
+.medicine-art.capsule{background:#FFF0F3}
+.medicine-art.sachet{background:#FFF7E1}
+.medicine-art>svg{width:64px;height:64px;display:block;stroke:none}
+#screen .citizen-ui .visual-stock{padding:15px;margin-bottom:12px}
+.stock-product{display:flex;gap:12px;align-items:center;margin-bottom:14px}
+.stock-product>div{min-width:0}
+#screen .citizen-ui .visual-stock .stock-product h2{font-size:18px;line-height:1.3;letter-spacing:-.4px;margin:0;overflow-wrap:anywhere}
+#screen .citizen-ui .visual-stock .stock-product p{font-size:12px;line-height:1.5;color:#5D7290;margin:5px 0 0}
+.stock-clinic-art{width:65px;height:75px;flex-shrink:0;border-radius:16px;overflow:hidden;background:#EAF2FF}.stock-clinic-art img{display:block;width:100%;height:100%;object-fit:cover}
+.stock-state{display:flex;gap:7px;align-items:center;padding:10px;border-radius:10px;background:#EAF7F1;color:#126449}
+.stock-state>svg{width:17px;height:17px}
+.stock-state strong{font-size:13px;font-weight:700}
+.stock-state>span{font-size:10px;margin-left:auto;white-space:nowrap}
+.visual-stock.unavailable .stock-state{background:#FFF0F2;color:#A3263F}
+.visual-stock.unconfirmed .stock-state{background:#FFF6DF;color:#7B5709}
+#screen .citizen-ui .visual-stock .stock-update{display:flex;gap:6px;align-items:flex-start;font-size:10px;line-height:1.6;color:#627794;margin:11px 0 5px}
+.stock-update>svg{width:13px;height:13px;margin-top:1px}
+.stock-notes>summary{font-size:12px;line-height:1.5;color:#547097;min-height:44px;display:flex;align-items:center;cursor:pointer;gap:6px}
+.stock-notes>summary::before{content:'+';font-size:17px;color:var(--blue)}
+.stock-notes[open]>summary::before{content:'−'}
+#screen .citizen-ui .stock-notes p{font-size:12px;color:#5B718E;margin:0 0 12px;line-height:1.6}
+.stock-link{width:100%;min-height:46px;display:flex;align-items:center;justify-content:space-between;gap:10px;background:transparent;border:0;border-top:1px solid #E8EDF6;color:var(--blue);font-size:13px;font-weight:700;padding:11px 0 0;text-align:left}
+.stock-link>svg{width:16px;height:16px}
+.medicine-visual-hero{display:flex;flex-direction:column;align-items:center;text-align:center;border-radius:21px;border:1px solid #DCE6F8;background:radial-gradient(circle at 50% 40%,#FFFFFF 0 21%,#EDF3FF 65%);padding:20px 16px 22px;margin-bottom:16px}
+.medicine-hero-label{font-size:9px;font-weight:700;color:#57729A;letter-spacing:.9px;margin-bottom:12px}
+.medicine-visual-hero .medicine-art{width:106px;height:110px;border-radius:25px;transform:rotate(-7deg);box-shadow:0 9px 20px #3156A011;margin-bottom:15px}
+.medicine-visual-hero .medicine-art>svg{width:92px;height:92px}
+.medicine-visual-hero h1{font-size:26px;line-height:1.2;letter-spacing:-.8px;margin:0 0 9px}
+.medicine-visual-hero>p{font-size:14px;color:#57708F;margin:0}
+.medicine-use-note{display:flex;align-items:flex-start;gap:10px;padding:15px;background:#FFF8E5;border:1px solid #EFE6C7;border-radius:15px;margin-bottom:20px;color:#695425}
+.medicine-use-note>svg{width:22px;height:22px;color:#967222;flex-shrink:0}
+.medicine-use-note strong{font-size:13px;line-height:1.5}
+.medicine-use-note p{font-size:12px;line-height:1.6;margin:6px 0 8px}
+.medicine-use-note small{display:block;font-size:10px;line-height:1.5}
+#screen .citizen-ui .medicine-card .medicine-art{width:58px;height:70px}
+#screen .citizen-ui .medicine-card .medicine-art>svg{width:58px;height:58px}
+@media(max-width:350px){.clinic-scene>img{height:126px}.center-hero-copy{padding:14px}.center-hero-copy h1{font-size:21px}.service-tile{padding:11px 5px;min-height:93px}.service-tile>span{font-size:11px}.stock-product{gap:10px}.stock-product .medicine-art{width:56px;height:65px}.stock-product .medicine-art>svg{width:54px;height:54px}}
+#screen .citizen-ui .profile-actions strong{font-size:16px}
+#screen .citizen-ui .profile-actions small{font-size:13px}
+#screen .scan-view .scan-detail input{min-height:50px;font-size:16px}
+#screen .scan-view .scan-detail label{font-size:14px}
+#screen .scan-view .scan-confirm{font-size:14px;min-height:48px;line-height:1.5}
+#screen .scan-view .page-lead{font-size:15px}
+#screen .scan-view .scanner-dock p,#screen .scan-view .info-box{font-size:14px;line-height:1.6}
+@media(max-width:350px){
+  #screen .v6-ask.citizen-ui .ask-composer{margin-left:-16px;margin-right:-16px;width:calc(100% + 32px);padding-left:16px;padding-right:16px}
+  #screen .citizen-ui .home-header .home-emergency{font-size:11px;padding:0 8px;gap:4px}
+  #screen .citizen-ui .home-header .avatar-mini{width:40px;height:40px}
+  #screen .citizen-ui .v6-shortcut strong{font-size:13px}
+  #screen .citizen-ui .v6-shortcut>span:last-child{font-size:12px}
+  #screen .citizen-ui .v6-hero h2{font-size:19px}
+  #screen .v6-ask.citizen-ui .starter-grid button>span:nth-child(2){font-size:13px}
+  .bottom-nav .nav-item .nav-label{font-size:11px}
+}

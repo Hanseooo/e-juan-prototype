@@ -1,4 +1,6 @@
-# E-JUAN — UX and Flow Decisions (v2)
+# E-JUAN — UX and Flow Decisions (v2, historical)
+
+> Superseded by [the V6 municipal healthcare implementation](docs/V6-IMPLEMENTATION.md). The marketplace decisions below are retained as history and do not describe the current citizen navigation.
 
 ## Product scope and confirmation status
 
