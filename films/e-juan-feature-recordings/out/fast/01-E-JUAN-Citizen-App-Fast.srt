@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:02,500
+Start with what you need
+
+2
+00:00:02,500 --> 00:00:06,367
+Tell Juan how you feel
+
+3
+00:00:06,367 --> 00:00:10,183
+Answer four short questions
+
+4
+00:00:10,183 --> 00:00:13,100
+Find your next step
+
+5
+00:00:13,100 --> 00:00:15,833
+Explore center services and medicines
+
+6
+00:00:15,833 --> 00:00:19,033
+Check sample medicine stock
+
+7
+00:00:19,033 --> 00:00:22,150
+Review your saved summary
+
+8
+00:00:22,150 --> 00:00:25,783
+Find urgent help
+
+9
+00:00:25,783 --> 00:00:29,633
+Search centers in your area

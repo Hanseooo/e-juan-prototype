@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:08,000
+Choose a demo administrator role
+
+2
+00:00:08,000 --> 00:00:16,000
+See community priorities
+
+3
+00:00:16,000 --> 00:00:24,000
+Review sample health reports
+
+4
+00:00:24,000 --> 00:00:32,000
+Check public facility information
+
+5
+00:00:32,000 --> 00:00:40,000
+Record a sample stock change
+
+6
+00:00:40,000 --> 00:00:48,000
+Explore barangay reporting
+
+7
+00:00:48,000 --> 00:00:56,000
+Compare reported symptom trends
+
+8
+00:00:56,000 --> 00:01:04,000
+Monitor sample BHW reporting
+
+9
+00:01:04,000 --> 00:01:12,000
+Export an aggregate report

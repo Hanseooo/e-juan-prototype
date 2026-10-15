@@ -1,0 +1,193 @@
+{
+  "kind": "lgu",
+  "spec": {
+    "title": "LGU Command Center",
+    "width": 2560,
+    "height": 1440,
+    "device": "#workspace-preview",
+    "file": "04-E-JUAN-LGU-Command-Center.mp4",
+    "chapters": [
+      "Choose a demo administrator role",
+      "See community priorities",
+      "Review sample health reports",
+      "Check public facility information",
+      "Record a sample stock change",
+      "Explore barangay reporting",
+      "Compare reported symptom trends",
+      "Monitor sample BHW reporting",
+      "Export an aggregate report"
+    ]
+  },
+  "elapsed": 4.188,
+  "events": [
+    {
+      "type": "chapter",
+      "index": 0,
+      "at": 0.007,
+      "title": "Choose a demo administrator role"
+    },
+    {
+      "type": "chapter",
+      "index": 1,
+      "at": 0.207,
+      "title": "See community priorities"
+    },
+    {
+      "type": "tap",
+      "at": 0.358,
+      "point": {
+        "x": 1691.2578125,
+        "y": 878.1015625
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 2,
+      "at": 0.63,
+      "title": "Review sample health reports"
+    },
+    {
+      "type": "tap",
+      "at": 0.75,
+      "point": {
+        "x": 671.3125,
+        "y": 455.328125
+      },
+      "label": null
+    },
+    {
+      "type": "tap",
+      "at": 0.917,
+      "point": {
+        "x": 1787.2421875,
+        "y": 611.6328125
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 3,
+      "at": 1.141,
+      "title": "Check public facility information"
+    },
+    {
+      "type": "tap",
+      "at": 1.262,
+      "point": {
+        "x": 671.3125,
+        "y": 505.515625
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 4,
+      "at": 1.464,
+      "title": "Record a sample stock change"
+    },
+    {
+      "type": "tap",
+      "at": 1.558,
+      "point": {
+        "x": 671.3125,
+        "y": 555.703125
+      },
+      "label": null
+    },
+    {
+      "type": "tap",
+      "at": 2.274,
+      "point": {
+        "x": 994.046875,
+        "y": 1035.796875
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 5,
+      "at": 2.867,
+      "title": "Explore barangay reporting"
+    },
+    {
+      "type": "tap",
+      "at": 2.972,
+      "point": {
+        "x": 671.3125,
+        "y": 689.34375
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 6,
+      "at": 3.169,
+      "title": "Compare reported symptom trends"
+    },
+    {
+      "type": "tap",
+      "at": 3.268,
+      "point": {
+        "x": 671.3125,
+        "y": 739.53125
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 7,
+      "at": 3.467,
+      "title": "Monitor sample BHW reporting"
+    },
+    {
+      "type": "tap",
+      "at": 3.561,
+      "point": {
+        "x": 671.3125,
+        "y": 605.890625
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 8,
+      "at": 3.743,
+      "title": "Export an aggregate report"
+    },
+    {
+      "type": "tap",
+      "at": 3.842,
+      "point": {
+        "x": 671.3125,
+        "y": 789.71875
+      },
+      "label": null
+    },
+    {
+      "type": "tap",
+      "at": 3.949,
+      "point": {
+        "x": 979.2265625,
+        "y": 811.21875
+      },
+      "label": null
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "index.html": "eda33c0bf9c867bf708c257a1fa9acf628c249834b95a5cba12248b6740724ac",
+    "app.js": "2b2bcfd6f95c3939645ba40372d306d0dfd5969ca2a00a64b1a5878ffbcc6b35",
+    "v6-citizen.js": "62502c67a7dbae7de0408a9a89e2d1cf3722e2cf3cbc3d28983cd50dca68dcd0",
+    "citizen.css": "d81efef86a06f3e2158ca61ebf5a262bf15e978211920fabe13d15fa40ff052e",
+    "v6.css": "34503da268955661be53d4d1adffe1b37fca4b1fcdd109971eaabe0318279a83",
+    "styles.css": "1c08b32e70ed35285e44a49dd0bad211511db6eb3b09b4d0d77316b9dce174dc",
+    "portal.js": "0ec478bcf013658783f1cecb4086c043e4fca1e67c9f0c24206a22d5dca2d6d7",
+    "offline-store.js": "e82401d586611b43ef9187bb8b8681e15f1c99f21f7299c5a0bdaef884052f1b",
+    "portal.css": "a531531efc00192fec2712d0a2c0a0edcc365ce7b640b89183181b33552e6b83",
+    "sms-demo.js": "9e025762b8736b3dbba6b2546ec1e3ab3e69f7f67b1691a6ef58f3cb4727b8d8",
+    "sms-demo.css": "e8293791a4ac4554f5c2625b016e92af3b29b5d4d7892c97a0602f44d9c601ca",
+    "showcase.js": "a32e75765b98d01f0f07b6789eca24d8d34990e5722fe32aecd5a7777d4851a6"
+  },
+  "recordingStart": 1792038171723
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "sms",
+  "name": "02-E-JUAN-Native-SMS-Transparent.webm",
+  "frames": 1471,
+  "duration": 24.516666666666666,
+  "width": 752,
+  "height": 1564,
+  "source": "02-E-JUAN-Native-SMS-Fast.mp4",
+  "geometry": {
+    "body": {
+      "x": 180,
+      "y": 195,
+      "w": 720,
+      "h": 1530,
+      "radii": [
+        93.6,
+        93.6,
+        93.6,
+        93.6
+      ],
+      "clip": "none"
+    },
+    "stand": null,
+    "crop": {
+      "x": 164,
+      "y": 178,
+      "w": 752,
+      "h": 1564
+    }
+  },
+  "chapters": [
+    "Read a routine sample reply",
+    "Clinic details and visit reference",
+    "Pause the demo with STOP",
+    "Resume the demo with START",
+    "Read the urgent example",
+    "See the emergency request status",
+    "Try the scripted EMERGENCY reply",
+    "Understand the SMS demo"
+  ]
+}

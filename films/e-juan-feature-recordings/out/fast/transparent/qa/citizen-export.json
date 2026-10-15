@@ -1,0 +1,42 @@
+{
+  "kind": "citizen",
+  "name": "01-E-JUAN-Citizen-App-Transparent.webm",
+  "frames": 1778,
+  "duration": 29.633333333333333,
+  "width": 752,
+  "height": 1564,
+  "source": "01-E-JUAN-Citizen-App-Fast.mp4",
+  "geometry": {
+    "body": {
+      "x": 180,
+      "y": 195,
+      "w": 720,
+      "h": 1530,
+      "radii": [
+        93.6,
+        93.6,
+        93.6,
+        93.6
+      ],
+      "clip": "none"
+    },
+    "stand": null,
+    "crop": {
+      "x": 164,
+      "y": 178,
+      "w": 752,
+      "h": 1564
+    }
+  },
+  "chapters": [
+    "Start with what you need",
+    "Tell Juan how you feel",
+    "Answer four short questions",
+    "Find your next step",
+    "Explore center services and medicines",
+    "Check sample medicine stock",
+    "Review your saved summary",
+    "Find urgent help",
+    "Search centers in your area"
+  ]
+}

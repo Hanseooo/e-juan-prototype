@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "name": "01-E-JUAN-Citizen-App.mp4",
+      "duration": 72,
+      "width": 1080,
+      "height": 1920,
+      "frames": 4320,
+      "megabytes": 9.18,
+      "playback": {
+        "before": 0,
+        "after": 1.812873,
+        "ready": 4
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "02-E-JUAN-Native-SMS.mp4",
+      "duration": 72,
+      "width": 1080,
+      "height": 1920,
+      "frames": 4320,
+      "megabytes": 5.66,
+      "playback": {
+        "before": 0,
+        "after": 1.805933,
+        "ready": 4
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "03-E-JUAN-BHW-Tablet.mp4",
+      "duration": 72,
+      "width": 2560,
+      "height": 1440,
+      "frames": 4320,
+      "megabytes": 11.88,
+      "playback": {
+        "before": 0,
+        "after": 1.81662,
+        "ready": 4
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "04-E-JUAN-LGU-Command-Center.mp4",
+      "duration": 72,
+      "width": 2560,
+      "height": 1440,
+      "frames": 4320,
+      "megabytes": 12.19,
+      "playback": {
+        "before": 0,
+        "after": 1.805243,
+        "ready": 4
+      },
+      "sourceUnchanged": true
+    }
+  ],
+  "limits": [
+    "Silent screen recordings; no narration or music.",
+    "Native browser footage is 25 fps; the 60 fps exports repeat frames.",
+    "Live device/clinic/SMS/municipal integrations are not validated by these recordings."
+  ]
+}

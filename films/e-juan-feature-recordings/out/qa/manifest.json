@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "citizen",
+    "file": "01-E-JUAN-Citizen-App.mp4",
+    "source": "source\\citizen\\page@14e67222cb7ffa3be73afa070fc3ef06.webm",
+    "sourceFps": "25/1",
+    "trimLead": 1.7999999999999972,
+    "seconds": 72,
+    "width": 1080,
+    "height": 1920,
+    "sourceHashes": {
+      "index.html": "eda33c0bf9c867bf708c257a1fa9acf628c249834b95a5cba12248b6740724ac",
+      "app.js": "2b2bcfd6f95c3939645ba40372d306d0dfd5969ca2a00a64b1a5878ffbcc6b35",
+      "v6-citizen.js": "62502c67a7dbae7de0408a9a89e2d1cf3722e2cf3cbc3d28983cd50dca68dcd0",
+      "citizen.css": "d81efef86a06f3e2158ca61ebf5a262bf15e978211920fabe13d15fa40ff052e",
+      "v6.css": "34503da268955661be53d4d1adffe1b37fca4b1fcdd109971eaabe0318279a83",
+      "styles.css": "1c08b32e70ed35285e44a49dd0bad211511db6eb3b09b4d0d77316b9dce174dc",
+      "portal.js": "0ec478bcf013658783f1cecb4086c043e4fca1e67c9f0c24206a22d5dca2d6d7",
+      "offline-store.js": "e82401d586611b43ef9187bb8b8681e15f1c99f21f7299c5a0bdaef884052f1b",
+      "portal.css": "a531531efc00192fec2712d0a2c0a0edcc365ce7b640b89183181b33552e6b83",
+      "sms-demo.js": "9e025762b8736b3dbba6b2546ec1e3ab3e69f7f67b1691a6ef58f3cb4727b8d8",
+      "sms-demo.css": "e8293791a4ac4554f5c2625b016e92af3b29b5d4d7892c97a0602f44d9c601ca",
+      "showcase.js": "a32e75765b98d01f0f07b6789eca24d8d34990e5722fe32aecd5a7777d4851a6"
+    }
+  },
+  {
+    "kind": "sms",
+    "file": "02-E-JUAN-Native-SMS.mp4",
+    "source": "source\\sms\\page@c47da108622e55548fb77c8ef343ee1c.webm",
+    "sourceFps": "25/1",
+    "trimLead": 0.9200000000000017,
+    "seconds": 72,
+    "width": 1080,
+    "height": 1920,
+    "sourceHashes": {
+      "index.html": "eda33c0bf9c867bf708c257a1fa9acf628c249834b95a5cba12248b6740724ac",
+      "app.js": "2b2bcfd6f95c3939645ba40372d306d0dfd5969ca2a00a64b1a5878ffbcc6b35",
+      "v6-citizen.js": "62502c67a7dbae7de0408a9a89e2d1cf3722e2cf3cbc3d28983cd50dca68dcd0",
+      "citizen.css": "d81efef86a06f3e2158ca61ebf5a262bf15e978211920fabe13d15fa40ff052e",
+      "v6.css": "34503da268955661be53d4d1adffe1b37fca4b1fcdd109971eaabe0318279a83",
+      "styles.css": "1c08b32e70ed35285e44a49dd0bad211511db6eb3b09b4d0d77316b9dce174dc",
+      "portal.js": "0ec478bcf013658783f1cecb4086c043e4fca1e67c9f0c24206a22d5dca2d6d7",
+      "offline-store.js": "e82401d586611b43ef9187bb8b8681e15f1c99f21f7299c5a0bdaef884052f1b",
+      "portal.css": "a531531efc00192fec2712d0a2c0a0edcc365ce7b640b89183181b33552e6b83",
+      "sms-demo.js": "9e025762b8736b3dbba6b2546ec1e3ab3e69f7f67b1691a6ef58f3cb4727b8d8",
+      "sms-demo.css": "e8293791a4ac4554f5c2625b016e92af3b29b5d4d7892c97a0602f44d9c601ca",
+      "showcase.js": "a32e75765b98d01f0f07b6789eca24d8d34990e5722fe32aecd5a7777d4851a6"
+    }
+  },
+  {
+    "kind": "bhw",
+    "file": "03-E-JUAN-BHW-Tablet.mp4",
+    "source": "source\\bhw\\page@913be9d488efcba1f2d400a0f73ccd53.webm",
+    "sourceFps": "25/1",
+    "trimLead": 1.519999999999996,
+    "seconds": 72,
+    "width": 2560,
+    "height": 1440,
+    "sourceHashes": {
+      "index.html": "eda33c0bf9c867bf708c257a1fa9acf628c249834b95a5cba12248b6740724ac",
+      "app.js": "2b2bcfd6f95c3939645ba40372d306d0dfd5969ca2a00a64b1a5878ffbcc6b35",
+      "v6-citizen.js": "62502c67a7dbae7de0408a9a89e2d1cf3722e2cf3cbc3d28983cd50dca68dcd0",
+      "citizen.css": "d81efef86a06f3e2158ca61ebf5a262bf15e978211920fabe13d15fa40ff052e",
+      "v6.css": "34503da268955661be53d4d1adffe1b37fca4b1fcdd109971eaabe0318279a83",
+      "styles.css": "1c08b32e70ed35285e44a49dd0bad211511db6eb3b09b4d0d77316b9dce174dc",
+      "portal.js": "0ec478bcf013658783f1cecb4086c043e4fca1e67c9f0c24206a22d5dca2d6d7",
+      "offline-store.js": "e82401d586611b43ef9187bb8b8681e15f1c99f21f7299c5a0bdaef884052f1b",
+      "portal.css": "a531531efc00192fec2712d0a2c0a0edcc365ce7b640b89183181b33552e6b83",
+      "sms-demo.js": "9e025762b8736b3dbba6b2546ec1e3ab3e69f7f67b1691a6ef58f3cb4727b8d8",
+      "sms-demo.css": "e8293791a4ac4554f5c2625b016e92af3b29b5d4d7892c97a0602f44d9c601ca",
+      "showcase.js": "a32e75765b98d01f0f07b6789eca24d8d34990e5722fe32aecd5a7777d4851a6"
+    }
+  },
+  {
+    "kind": "lgu",
+    "file": "04-E-JUAN-LGU-Command-Center.mp4",
+    "source": "source\\lgu\\page@1070ca111b050c7e9163d2988cc7150d.webm",
+    "sourceFps": "25/1",
+    "trimLead": 0.8799999999999955,
+    "seconds": 72,
+    "width": 2560,
+    "height": 1440,
+    "sourceHashes": {
+      "index.html": "eda33c0bf9c867bf708c257a1fa9acf628c249834b95a5cba12248b6740724ac",
+      "app.js": "2b2bcfd6f95c3939645ba40372d306d0dfd5969ca2a00a64b1a5878ffbcc6b35",
+      "v6-citizen.js": "62502c67a7dbae7de0408a9a89e2d1cf3722e2cf3cbc3d28983cd50dca68dcd0",
+      "citizen.css": "d81efef86a06f3e2158ca61ebf5a262bf15e978211920fabe13d15fa40ff052e",
+      "v6.css": "34503da268955661be53d4d1adffe1b37fca4b1fcdd109971eaabe0318279a83",
+      "styles.css": "1c08b32e70ed35285e44a49dd0bad211511db6eb3b09b4d0d77316b9dce174dc",
+      "portal.js": "0ec478bcf013658783f1cecb4086c043e4fca1e67c9f0c24206a22d5dca2d6d7",
+      "offline-store.js": "e82401d586611b43ef9187bb8b8681e15f1c99f21f7299c5a0bdaef884052f1b",
+      "portal.css": "a531531efc00192fec2712d0a2c0a0edcc365ce7b640b89183181b33552e6b83",
+      "sms-demo.js": "9e025762b8736b3dbba6b2546ec1e3ab3e69f7f67b1691a6ef58f3cb4727b8d8",
+      "sms-demo.css": "e8293791a4ac4554f5c2625b016e92af3b29b5d4d7892c97a0602f44d9c601ca",
+      "showcase.js": "a32e75765b98d01f0f07b6789eca24d8d34990e5722fe32aecd5a7777d4851a6"
+    }
+  }
+]

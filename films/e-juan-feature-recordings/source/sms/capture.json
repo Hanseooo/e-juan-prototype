@@ -1,0 +1,139 @@
+{
+  "kind": "sms",
+  "spec": {
+    "title": "Native SMS",
+    "width": 1080,
+    "height": 1920,
+    "device": "#sms-device",
+    "file": "02-E-JUAN-Native-SMS.mp4",
+    "chapters": [
+      "Read a routine sample reply",
+      "See clinic and medicine information",
+      "Review the visit reference",
+      "Pause the demo with STOP",
+      "Resume the demo with START",
+      "Read the urgent example",
+      "See the emergency request status",
+      "Try the scripted EMERGENCY reply",
+      "Understand the SMS demo"
+    ]
+  },
+  "elapsed": 72.026,
+  "events": [
+    {
+      "type": "chapter",
+      "index": 0,
+      "at": 0.022,
+      "title": "Read a routine sample reply"
+    },
+    {
+      "type": "chapter",
+      "index": 1,
+      "at": 8.01,
+      "title": "See clinic and medicine information"
+    },
+    {
+      "type": "chapter",
+      "index": 2,
+      "at": 16.017,
+      "title": "Review the visit reference"
+    },
+    {
+      "type": "chapter",
+      "index": 3,
+      "at": 24.018,
+      "title": "Pause the demo with STOP"
+    },
+    {
+      "type": "tap",
+      "at": 24.707,
+      "point": {
+        "x": 415.28125,
+        "y": 1493.6953125
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 4,
+      "at": 32.02,
+      "title": "Resume the demo with START"
+    },
+    {
+      "type": "tap",
+      "at": 32.708,
+      "point": {
+        "x": 515.0234375,
+        "y": 1493.6953125
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 5,
+      "at": 40.021,
+      "title": "Read the urgent example"
+    },
+    {
+      "type": "tap",
+      "at": 40.716,
+      "point": {
+        "x": 699.75,
+        "y": 535.203125
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 6,
+      "at": 48.011,
+      "title": "See the emergency request status"
+    },
+    {
+      "type": "chapter",
+      "index": 7,
+      "at": 56.012,
+      "title": "Try the scripted EMERGENCY reply"
+    },
+    {
+      "type": "tap",
+      "at": 56.677,
+      "point": {
+        "x": 289.1640625,
+        "y": 1493.6953125
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 8,
+      "at": 64.021,
+      "title": "Understand the SMS demo"
+    },
+    {
+      "type": "tap",
+      "at": 64.714,
+      "point": {
+        "x": 822.6015625,
+        "y": 366.8984375
+      },
+      "label": "About this SMS demo"
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "index.html": "eda33c0bf9c867bf708c257a1fa9acf628c249834b95a5cba12248b6740724ac",
+    "app.js": "2b2bcfd6f95c3939645ba40372d306d0dfd5969ca2a00a64b1a5878ffbcc6b35",
+    "v6-citizen.js": "62502c67a7dbae7de0408a9a89e2d1cf3722e2cf3cbc3d28983cd50dca68dcd0",
+    "citizen.css": "d81efef86a06f3e2158ca61ebf5a262bf15e978211920fabe13d15fa40ff052e",
+    "v6.css": "34503da268955661be53d4d1adffe1b37fca4b1fcdd109971eaabe0318279a83",
+    "styles.css": "1c08b32e70ed35285e44a49dd0bad211511db6eb3b09b4d0d77316b9dce174dc",
+    "portal.js": "0ec478bcf013658783f1cecb4086c043e4fca1e67c9f0c24206a22d5dca2d6d7",
+    "offline-store.js": "e82401d586611b43ef9187bb8b8681e15f1c99f21f7299c5a0bdaef884052f1b",
+    "portal.css": "a531531efc00192fec2712d0a2c0a0edcc365ce7b640b89183181b33552e6b83",
+    "sms-demo.js": "9e025762b8736b3dbba6b2546ec1e3ab3e69f7f67b1691a6ef58f3cb4727b8d8",
+    "sms-demo.css": "e8293791a4ac4554f5c2625b016e92af3b29b5d4d7892c97a0602f44d9c601ca",
+    "showcase.js": "a32e75765b98d01f0f07b6789eca24d8d34990e5722fe32aecd5a7777d4851a6"
+  },
+  "recordingStart": 1792038335475
+}

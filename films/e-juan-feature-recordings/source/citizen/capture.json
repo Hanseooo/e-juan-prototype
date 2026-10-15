@@ -1,0 +1,238 @@
+{
+  "kind": "citizen",
+  "spec": {
+    "title": "Citizen App",
+    "width": 1080,
+    "height": 1920,
+    "device": "#device",
+    "file": "01-E-JUAN-Citizen-App.mp4",
+    "chapters": [
+      "Start with what you need",
+      "Tell Juan how you feel",
+      "Answer four short questions",
+      "Find your next step",
+      "Explore center services and medicines",
+      "Check sample medicine stock",
+      "Review your saved summary",
+      "Find urgent help",
+      "Search centers in your area"
+    ]
+  },
+  "elapsed": 72.015,
+  "events": [
+    {
+      "type": "chapter",
+      "index": 0,
+      "at": 0.051,
+      "title": "Start with what you need"
+    },
+    {
+      "type": "chapter",
+      "index": 1,
+      "at": 8.012,
+      "title": "Tell Juan how you feel"
+    },
+    {
+      "type": "tap",
+      "at": 8.741,
+      "point": {
+        "x": 406.8000030517578,
+        "y": 1635.8999633789062
+      },
+      "label": "Ask Juan"
+    },
+    {
+      "type": "tap",
+      "at": 12.694,
+      "point": {
+        "x": 768.6000061035156,
+        "y": 1429.7999877929688
+      },
+      "label": "Send question"
+    },
+    {
+      "type": "chapter",
+      "index": 2,
+      "at": 16.013,
+      "title": "Answer four short questions"
+    },
+    {
+      "type": "tap",
+      "at": 16.695,
+      "point": {
+        "x": 540,
+        "y": 983.9906005859375
+      },
+      "label": null
+    },
+    {
+      "type": "tap",
+      "at": 17.862,
+      "point": {
+        "x": 540,
+        "y": 1152.7406005859375
+      },
+      "label": null
+    },
+    {
+      "type": "tap",
+      "at": 19.003,
+      "point": {
+        "x": 540,
+        "y": 1073.1749572753906
+      },
+      "label": null
+    },
+    {
+      "type": "tap",
+      "at": 20.183,
+      "point": {
+        "x": 540,
+        "y": 1021.4249572753906
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 3,
+      "at": 24.007,
+      "title": "Find your next step"
+    },
+    {
+      "type": "tap",
+      "at": 24.699,
+      "point": {
+        "x": 541.8000030517578,
+        "y": 1121.268798828125
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 4,
+      "at": 32.017,
+      "title": "Explore center services and medicines"
+    },
+    {
+      "type": "chapter",
+      "index": 5,
+      "at": 40.019,
+      "title": "Check sample medicine stock"
+    },
+    {
+      "type": "tap",
+      "at": 40.692,
+      "point": {
+        "x": 673.1999816894531,
+        "y": 1635.8999633789062
+      },
+      "label": "Medicines"
+    },
+    {
+      "type": "tap",
+      "at": 41.461,
+      "point": {
+        "x": 602.1000061035156,
+        "y": 1526.746826171875
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 6,
+      "at": 48.009,
+      "title": "Review your saved summary"
+    },
+    {
+      "type": "tap",
+      "at": 48.685,
+      "point": {
+        "x": 806.3999938964844,
+        "y": 1635.8999633789062
+      },
+      "label": "Profile"
+    },
+    {
+      "type": "tap",
+      "at": 49.431,
+      "point": {
+        "x": 539.9999847412109,
+        "y": 960.5062255859375
+      },
+      "label": null
+    },
+    {
+      "type": "tap",
+      "at": 50.126,
+      "point": {
+        "x": 539.9999847412109,
+        "y": 777.918701171875
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 7,
+      "at": 56.015,
+      "title": "Find urgent help"
+    },
+    {
+      "type": "tap",
+      "at": 56.692,
+      "point": {
+        "x": 273.6000061035156,
+        "y": 1635.8999633789062
+      },
+      "label": "Home"
+    },
+    {
+      "type": "tap",
+      "at": 57.405,
+      "point": {
+        "x": 660.6000061035156,
+        "y": 382.1999816894531
+      },
+      "label": null
+    },
+    {
+      "type": "chapter",
+      "index": 8,
+      "at": 64.018,
+      "title": "Search centers in your area"
+    },
+    {
+      "type": "tap",
+      "at": 64.694,
+      "point": {
+        "x": 539.9999847412109,
+        "y": 1635.8999633789062
+      },
+      "label": "Centers"
+    },
+    {
+      "type": "tap",
+      "at": 65.438,
+      "point": {
+        "x": 786.2484436035156,
+        "y": 1044.3749694824219
+      },
+      "label": null
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "index.html": "eda33c0bf9c867bf708c257a1fa9acf628c249834b95a5cba12248b6740724ac",
+    "app.js": "2b2bcfd6f95c3939645ba40372d306d0dfd5969ca2a00a64b1a5878ffbcc6b35",
+    "v6-citizen.js": "62502c67a7dbae7de0408a9a89e2d1cf3722e2cf3cbc3d28983cd50dca68dcd0",
+    "citizen.css": "d81efef86a06f3e2158ca61ebf5a262bf15e978211920fabe13d15fa40ff052e",
+    "v6.css": "34503da268955661be53d4d1adffe1b37fca4b1fcdd109971eaabe0318279a83",
+    "styles.css": "1c08b32e70ed35285e44a49dd0bad211511db6eb3b09b4d0d77316b9dce174dc",
+    "portal.js": "0ec478bcf013658783f1cecb4086c043e4fca1e67c9f0c24206a22d5dca2d6d7",
+    "offline-store.js": "e82401d586611b43ef9187bb8b8681e15f1c99f21f7299c5a0bdaef884052f1b",
+    "portal.css": "a531531efc00192fec2712d0a2c0a0edcc365ce7b640b89183181b33552e6b83",
+    "sms-demo.js": "9e025762b8736b3dbba6b2546ec1e3ab3e69f7f67b1691a6ef58f3cb4727b8d8",
+    "sms-demo.css": "e8293791a4ac4554f5c2625b016e92af3b29b5d4d7892c97a0602f44d9c601ca",
+    "showcase.js": "a32e75765b98d01f0f07b6789eca24d8d34990e5722fe32aecd5a7777d4851a6"
+  },
+  "recordingStart": 1792038258882
+}

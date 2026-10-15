@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "name": "01-E-JUAN-Citizen-App-Fast.mp4",
+      "seconds": 29.633008,
+      "frames": 1778,
+      "megabytes": 5.75,
+      "chapters": [
+        "Start with what you need",
+        "Tell Juan how you feel",
+        "Answer four short questions",
+        "Find your next step",
+        "Explore center services and medicines",
+        "Check sample medicine stock",
+        "Review your saved summary",
+        "Find urgent help",
+        "Search centers in your area"
+      ],
+      "playback": {
+        "start": 0,
+        "end": 1.110121
+      }
+    },
+    {
+      "name": "02-E-JUAN-Native-SMS-Fast.mp4",
+      "seconds": 24.516667,
+      "frames": 1471,
+      "megabytes": 2.5,
+      "chapters": [
+        "Read a routine sample reply",
+        "Clinic details and visit reference",
+        "Pause the demo with STOP",
+        "Resume the demo with START",
+        "Read the urgent example",
+        "See the emergency request status",
+        "Try the scripted EMERGENCY reply",
+        "Understand the SMS demo"
+      ],
+      "playback": {
+        "start": 0,
+        "end": 1.109169
+      }
+    },
+    {
+      "name": "03-E-JUAN-BHW-Tablet-Fast.mp4",
+      "seconds": 26.366667,
+      "frames": 1582,
+      "megabytes": 3.83,
+      "chapters": [
+        "Choose the practice workspace",
+        "See your daily work",
+        "Add a fictional resident",
+        "Record a health concern",
+        "Save on this tablet",
+        "Review saved reports",
+        "Try a local sync simulation",
+        "Keep working offline",
+        "See your retained records"
+      ],
+      "playback": {
+        "start": 0,
+        "end": 1.107376
+      }
+    },
+    {
+      "name": "04-E-JUAN-LGU-Command-Center-Fast.mp4",
+      "seconds": 27.699674,
+      "frames": 1662,
+      "megabytes": 4.78,
+      "chapters": [
+        "Choose a demo administrator role",
+        "See community priorities",
+        "Review sample health reports",
+        "Check public facility information",
+        "Record a sample stock change",
+        "Explore barangay reporting",
+        "Compare reported symptom trends",
+        "Monitor sample BHW reporting",
+        "Export an aggregate report"
+      ],
+      "playback": {
+        "start": 0,
+        "end": 1.10691
+      }
+    }
+  ],
+  "review": "Fast edits remove idle holds and use 1.0–1.5x action playback; the original device-framed recordings remain the source."
+}

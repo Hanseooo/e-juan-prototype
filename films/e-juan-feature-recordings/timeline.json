@@ -1,0 +1,12 @@
+{
+  "duration":72,
+  "chapterSeconds":8,
+  "fps":60,
+  "bpm":120,
+  "clients":{
+    "citizen":{"title":"Citizen App","width":1080,"height":1920,"device":"#device","file":"01-E-JUAN-Citizen-App.mp4","chapters":["Start with what you need","Tell Juan how you feel","Answer four short questions","Find your next step","Explore center services and medicines","Check sample medicine stock","Review your saved summary","Find urgent help","Search centers in your area"]},
+    "sms":{"title":"Native SMS","width":1080,"height":1920,"device":"#sms-device","file":"02-E-JUAN-Native-SMS.mp4","chapters":["Read a routine sample reply","See clinic and medicine information","Review the visit reference","Pause the demo with STOP","Resume the demo with START","Read the urgent example","See the emergency request status","Try the scripted EMERGENCY reply","Understand the SMS demo"]},
+    "bhw":{"title":"BHW Tablet","width":2560,"height":1440,"device":"#workspace-preview","file":"03-E-JUAN-BHW-Tablet.mp4","chapters":["Choose the practice workspace","See your daily work","Add a fictional resident","Record a health concern","Save on this tablet","Review saved reports","Try a local sync simulation","Keep working offline","See your retained records"]},
+    "lgu":{"title":"LGU Command Center","width":2560,"height":1440,"device":"#workspace-preview","file":"04-E-JUAN-LGU-Command-Center.mp4","chapters":["Choose a demo administrator role","See community priorities","Review sample health reports","Check public facility information","Record a sample stock change","Explore barangay reporting","Compare reported symptom trends","Monitor sample BHW reporting","Export an aggregate report"]}
+  }
+}

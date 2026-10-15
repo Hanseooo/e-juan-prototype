@@ -1,0 +1,90 @@
+{
+  "kind": "sms",
+  "name": "02-E-JUAN-Native-SMS-Fast.mp4",
+  "width": 1080,
+  "height": 1920,
+  "duration": 24.516666666666666,
+  "frames": 1471,
+  "scenes": [
+    {
+      "chapter": 0,
+      "start": 0.2,
+      "end": 4,
+      "speed": 1.15,
+      "caption": "Read a routine sample reply",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\sms\\00.mp4",
+      "startOut": 0,
+      "frames": 198
+    },
+    {
+      "chapter": 1,
+      "start": 8.1,
+      "end": 12.7,
+      "speed": 1.1,
+      "caption": "Clinic details and visit reference",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\sms\\01.mp4",
+      "startOut": 3.3,
+      "frames": 251
+    },
+    {
+      "chapter": 3,
+      "start": 24.1,
+      "end": 27.8,
+      "speed": 1.2,
+      "caption": "Pause the demo with STOP",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\sms\\02.mp4",
+      "startOut": 7.483333333333333,
+      "frames": 185
+    },
+    {
+      "chapter": 4,
+      "start": 32.1,
+      "end": 35.3,
+      "speed": 1.2,
+      "caption": "Resume the demo with START",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\sms\\03.mp4",
+      "startOut": 10.566666666666666,
+      "frames": 160
+    },
+    {
+      "chapter": 5,
+      "start": 40.1,
+      "end": 44,
+      "speed": 1.15,
+      "caption": "Read the urgent example",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\sms\\04.mp4",
+      "startOut": 13.233333333333333,
+      "frames": 203
+    },
+    {
+      "chapter": 6,
+      "start": 48.1,
+      "end": 50.8,
+      "speed": 1.15,
+      "caption": "See the emergency request status",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\sms\\05.mp4",
+      "startOut": 16.616666666666667,
+      "frames": 141
+    },
+    {
+      "chapter": 7,
+      "start": 56.1,
+      "end": 59.4,
+      "speed": 1.25,
+      "caption": "Try the scripted EMERGENCY reply",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\sms\\06.mp4",
+      "startOut": 18.966666666666665,
+      "frames": 158
+    },
+    {
+      "chapter": 8,
+      "start": 64.1,
+      "end": 67.3,
+      "speed": 1.1,
+      "caption": "Understand the SMS demo",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\sms\\07.mp4",
+      "startOut": 21.6,
+      "frames": 175
+    }
+  ]
+}

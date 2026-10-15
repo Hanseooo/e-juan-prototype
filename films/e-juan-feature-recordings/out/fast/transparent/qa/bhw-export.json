@@ -1,0 +1,42 @@
+{
+  "kind": "bhw",
+  "name": "03-E-JUAN-BHW-Tablet-Transparent.webm",
+  "frames": 1582,
+  "duration": 26.366666666666667,
+  "width": 1552,
+  "height": 1186,
+  "source": "03-E-JUAN-BHW-Tablet-Fast.mp4",
+  "geometry": {
+    "body": {
+      "x": 520,
+      "y": 143.25,
+      "w": 1520,
+      "h": 1151.5,
+      "radii": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "clip": "none"
+    },
+    "stand": null,
+    "crop": {
+      "x": 504,
+      "y": 126,
+      "w": 1552,
+      "h": 1186
+    }
+  },
+  "chapters": [
+    "Choose the practice workspace",
+    "See your daily work",
+    "Add a fictional resident",
+    "Record a health concern",
+    "Save on this tablet",
+    "Review saved reports",
+    "Try a local sync simulation",
+    "Keep working offline",
+    "See your retained records"
+  ]
+}

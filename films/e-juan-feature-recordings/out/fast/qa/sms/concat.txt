@@ -1,0 +1,8 @@
+file 'C:/Users/g11ar/Downloads/e-juan-prototype-main/e-juan-prototype-main/films/e-juan-feature-recordings/out/fast/qa/sms/00.mp4'
+file 'C:/Users/g11ar/Downloads/e-juan-prototype-main/e-juan-prototype-main/films/e-juan-feature-recordings/out/fast/qa/sms/01.mp4'
+file 'C:/Users/g11ar/Downloads/e-juan-prototype-main/e-juan-prototype-main/films/e-juan-feature-recordings/out/fast/qa/sms/02.mp4'
+file 'C:/Users/g11ar/Downloads/e-juan-prototype-main/e-juan-prototype-main/films/e-juan-feature-recordings/out/fast/qa/sms/03.mp4'
+file 'C:/Users/g11ar/Downloads/e-juan-prototype-main/e-juan-prototype-main/films/e-juan-feature-recordings/out/fast/qa/sms/04.mp4'
+file 'C:/Users/g11ar/Downloads/e-juan-prototype-main/e-juan-prototype-main/films/e-juan-feature-recordings/out/fast/qa/sms/05.mp4'
+file 'C:/Users/g11ar/Downloads/e-juan-prototype-main/e-juan-prototype-main/films/e-juan-feature-recordings/out/fast/qa/sms/06.mp4'
+file 'C:/Users/g11ar/Downloads/e-juan-prototype-main/e-juan-prototype-main/films/e-juan-feature-recordings/out/fast/qa/sms/07.mp4'

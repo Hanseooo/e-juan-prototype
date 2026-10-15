@@ -1,0 +1,13 @@
+/* Capture-session framing only; the supplied application and hardware shells remain intact. */
+html,body{width:100%;height:100%;overflow:clip}
+.showcase,.showcase[data-preview="bhw"],.showcase[data-preview="lgu"]{display:block!important;width:100vw;height:100vh;min-height:0;overflow:clip}
+.story-panel,.preview-caption,.device-caption{display:none!important}
+.showcase .preview-area,.showcase[data-preview="bhw"] .preview-area,.showcase[data-preview="lgu"] .preview-area{width:100%;height:100vh;min-height:0;padding:0!important;display:flex;align-items:center;justify-content:center;overflow:clip}
+.device,.sms-device{width:400px!important;height:850px!important;min-height:850px!important;max-height:850px!important;flex-shrink:0;transform:scale(1.8);transform-origin:center}
+#workspace-preview{width:1520px!important;max-width:1520px!important;flex-shrink:0;transform:none}
+.record-title,.record-caption{position:fixed;left:50%;transform:translateX(-50%);z-index:50;color:white;font-family:Arial,sans-serif;text-align:center;pointer-events:none;white-space:nowrap}
+.record-title{top:52px;font-size:42px;font-weight:700;letter-spacing:-1px}
+.record-caption{bottom:68px;font-size:39px;font-weight:500;line-height:1.3}
+body[data-record-kind="bhw"] .record-title,body[data-record-kind="lgu"] .record-title{top:35px;font-size:42px}
+body[data-record-kind="bhw"] .record-caption,body[data-record-kind="lgu"] .record-caption{bottom:36px;font-size:38px}
+.record-tap{position:fixed;left:0;top:0;width:46px;height:46px;border:4px solid white;box-shadow:0 0 0 3px #0038A8;background:#0038A825;border-radius:50%;z-index:10000;pointer-events:none;opacity:0}

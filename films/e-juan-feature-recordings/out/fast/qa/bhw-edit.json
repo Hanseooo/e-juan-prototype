@@ -1,0 +1,100 @@
+{
+  "kind": "bhw",
+  "name": "03-E-JUAN-BHW-Tablet-Fast.mp4",
+  "width": 2560,
+  "height": 1440,
+  "duration": 26.366666666666667,
+  "frames": 1582,
+  "scenes": [
+    {
+      "chapter": 0,
+      "start": 0.2,
+      "end": 1.7,
+      "speed": 1,
+      "caption": "Choose the practice workspace",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\bhw\\00.mp4",
+      "startOut": 0,
+      "frames": 90
+    },
+    {
+      "chapter": 1,
+      "start": 8.1,
+      "end": 11,
+      "speed": 1.2,
+      "caption": "See your daily work",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\bhw\\01.mp4",
+      "startOut": 1.5,
+      "frames": 145
+    },
+    {
+      "chapter": 2,
+      "start": 16.1,
+      "end": 21,
+      "speed": 1.4,
+      "caption": "Add a fictional resident",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\bhw\\02.mp4",
+      "startOut": 3.9166666666666665,
+      "frames": 210
+    },
+    {
+      "chapter": 3,
+      "start": 24.1,
+      "end": 29,
+      "speed": 1.4,
+      "caption": "Record a health concern",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\bhw\\03.mp4",
+      "startOut": 7.416666666666667,
+      "frames": 210
+    },
+    {
+      "chapter": 4,
+      "start": 32.1,
+      "end": 35.7,
+      "speed": 1.1,
+      "caption": "Save on this tablet",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\bhw\\04.mp4",
+      "startOut": 10.916666666666666,
+      "frames": 196
+    },
+    {
+      "chapter": 5,
+      "start": 40.1,
+      "end": 43,
+      "speed": 1.2,
+      "caption": "Review saved reports",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\bhw\\05.mp4",
+      "startOut": 14.183333333333334,
+      "frames": 145
+    },
+    {
+      "chapter": 6,
+      "start": 48.1,
+      "end": 53.6,
+      "speed": 1.4,
+      "caption": "Try a local sync simulation",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\bhw\\06.mp4",
+      "startOut": 16.6,
+      "frames": 236
+    },
+    {
+      "chapter": 7,
+      "start": 56.1,
+      "end": 59.8,
+      "speed": 1.15,
+      "caption": "Keep working offline",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\bhw\\07.mp4",
+      "startOut": 20.533333333333335,
+      "frames": 193
+    },
+    {
+      "chapter": 8,
+      "start": 64.1,
+      "end": 67.1,
+      "speed": 1.15,
+      "caption": "See your retained records",
+      "file": "C:\\Users\\g11ar\\Downloads\\e-juan-prototype-main\\e-juan-prototype-main\\films\\e-juan-feature-recordings\\out\\fast\\qa\\bhw\\08.mp4",
+      "startOut": 23.75,
+      "frames": 157
+    }
+  ]
+}

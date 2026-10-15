@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:08,000
+Read a routine sample reply
+
+2
+00:00:08,000 --> 00:00:16,000
+See clinic and medicine information
+
+3
+00:00:16,000 --> 00:00:24,000
+Review the visit reference
+
+4
+00:00:24,000 --> 00:00:32,000
+Pause the demo with STOP
+
+5
+00:00:32,000 --> 00:00:40,000
+Resume the demo with START
+
+6
+00:00:40,000 --> 00:00:48,000
+Read the urgent example
+
+7
+00:00:48,000 --> 00:00:56,000
+See the emergency request status
+
+8
+00:00:56,000 --> 00:01:04,000
+Try the scripted EMERGENCY reply
+
+9
+00:01:04,000 --> 00:01:12,000
+Understand the SMS demo
